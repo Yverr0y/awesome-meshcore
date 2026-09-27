@@ -11,6 +11,11 @@ sensor networks.
 
 - [Official Resources](#official-resources)
   - [Social Media](#social-media)
+- [Hardware](#hardware)
+  - [Pre-built Devices](#pre-built-devices)
+  - [Supported Devices](#supported-devices)
+  - [DIY Builds](#diy-builds)
+  - [Enclosures and Mounts](#enclosures-and-mounts)
 - [Client](#client)
   - [Cross-Platform](#cross-platform)
   - [Android](#android)
@@ -22,11 +27,6 @@ sensor networks.
 - [Firmware and Flashing](#firmware-and-flashing)
   - [Custom Firmware](#custom-firmware)
   - [Flashing and Updating](#flashing-and-updating)
-- [Hardware](#hardware)
-  - [Supported Devices](#supported-devices)
-  - [Pre-built Devices](#pre-built-devices)
-  - [DIY Builds](#diy-builds)
-  - [Enclosures and Mounts](#enclosures-and-mounts)
 - [Maps and Diagnostics](#maps-and-diagnostics)
   - [Maps](#maps)
   - [Diagnostics and Dashboards](#diagnostics-and-dashboards)
@@ -51,7 +51,6 @@ Apps and firmware marked 🔒 are closed source.
 - [Documentation](https://docs.meshcore.io/) - Official docs.
 - [Blog](https://blog.meshcore.io/) - Official announcements and releases.
 - [MeshCore Web Flasher](https://flasher.meshcore.io/) - Official browser-based firmware flasher for supported devices.
-- [MeshCore Companion Web App](https://app.meshcore.io/) 🔒 - Official web build of the companion app.
 - [MeshCore Map](https://map.meshcore.io/) - Official network map.
 - [The FAQ](https://github.com/meshcore-dev/MeshCore/blob/main/docs/faq.md) - Official answers on setup, roles and radio settings.
 - [Firmware repository](https://github.com/meshcore-dev/MeshCore) ![GitHub Repo stars](https://img.shields.io/github/stars/meshcore-dev/MeshCore?style=social) - MIT licensed firmware. ![GitHub last commit](https://img.shields.io/github/last-commit/meshcore-dev/MeshCore)
@@ -63,8 +62,52 @@ Apps and firmware marked 🔒 are closed source.
 - [Reddit r/meshcore](https://www.reddit.com/r/meshcore/) - Official subreddit.
 - [Facebook group](https://www.facebook.com/groups/meshcore)
 - [Mastodon](https://mastodon.social/@meshcore)
-- [X](https://x.com/mesh_core)
 - [YouTube](https://www.youtube.com/@meshcore-official)
+
+
+
+## Hardware
+
+### Pre-built Devices
+
+Sold with MeshCore firmware pre-installed, or with MeshCore selectable at order.
+
+| Product | Description |
+| :--- | :--- |
+| [Seeed Wio Tracker L1 Pro for MeshCore](https://www.seeedstudio.com/Wio-Tracker-L1-Pro-for-Meshcore-p-6717.html) | Handheld with GPS, OLED display and battery. |
+| [SenseCAP Solar Node P1 Pro for MeshCore](https://www.seeedstudio.com/SenseCAP-Solar-Node-P1-Pro-for-Meshcore-p-6741.html) | Solar-powered outdoor repeater with GPS. |
+| [Seeed MeshCore Starter Kit](https://www.seeedstudio.com/MeshCore-Starter-Kit-Ready-to-Use-Off-Grid-Instant-Reliable-Communication.html) | Bundle of a repeater and client nodes ready to deploy. |
+| [RAK WisMesh Tag (Atlavox)](https://atlavox.com/products/wismesh-tag-meshtastic-meshcore-radio) | IP66 GPS tracker; choose the MeshCore variant when ordering. |
+| [Elecrow ThinkNode M9](https://www.elecrow.com/thinknode-m9-meshcore-communication-terminal-with-full-keyboard-2-4inch-lcd-esp32-s3-lr1110-gps-2300mah.html) | Standalone communicator with QWERTY keyboard, colour LCD and GPS. |
+| [LilyGo T-LoRa Pager MeshCore](https://lilygo.cc/products/t-lora-pager-meshcore) | Pocket pager with keyboard, display and LR1121 radio. |
+
+### Supported Devices
+
+Compatibility references; check these before buying a board.
+
+| Resource | Description |
+| :--- | :--- |
+| [MeshCore Europe devices](https://meshcoreeurope.org/en/devices/) | Multilingual device directory with setup guides. |
+| [mesh-sn.de firmware matrix](https://mesh-sn.de/en/devices/matrix) | Per-device matrix of which MeshCore firmware builds are available. |
+| [Mesh America supported hardware](https://wiki.meshamerica.com/books/meshcore/page/supported-hardware-for-meshcore) | Community list of compatible boards and chipsets. |
+
+### DIY Builds
+
+Open designs with published files (PCB, BOM, STL or detailed build guide).
+
+| Project | Description |
+| :--- | :--- |
+| [915 MHz Mesh Antenna](https://github.com/ellisgl/915-mesh-antenna) ![GitHub Repo stars](https://img.shields.io/github/stars/ellisgl/915-mesh-antenna?style=social) | Stacked collinear antenna with simulation files and build dimensions. |
+| [bardolf MeshCore Repeater](https://github.com/bardolf/meshcore-repeater) ![GitHub Repo stars](https://img.shields.io/github/stars/bardolf/meshcore-repeater?style=social) | Solar repeater with FreeCAD enclosure, STL files and full BOM. |
+| [LoRaMeshNodes](https://github.com/hotwolf/LoRaMeshNodes) ![GitHub Repo stars](https://img.shields.io/github/stars/hotwolf/LoRaMeshNodes?style=social) | Mobile and solar nodes with OpenSCAD enclosures, STL files and BOMs. |
+| [MeshCore E22P Repeater](https://github.com/Sukecz/MeshCore-E22P-Repeater) ![GitHub Repo stars](https://img.shields.io/github/stars/Sukecz/MeshCore-E22P-Repeater?style=social) | XIAO ESP32-S3 repeater with an Ebyte E22P module, wiring and firmware. |
+| [NodakMesh solar repeater build](https://nodakmesh.org/blog/meshcore-solar-repeater-build) | Parts list, solar sizing, weatherproofing and configuration walkthrough. |
+| [RePeter](https://github.com/robrec/MeshCoreRepeater-RePeter) ![GitHub Repo stars](https://img.shields.io/github/stars/robrec/MeshCoreRepeater-RePeter?style=social) | Bremen repeater board with Gerbers, schematics, BOM and STEP model. |
+| [XIAO S3 Dual-Radio Repeater](https://github.com/bouyous/meshcore-xiao-s3-dual-radio-repeater) ![GitHub Repo stars](https://img.shields.io/github/stars/bouyous/meshcore-xiao-s3-dual-radio-repeater?style=social) | Two-radio summit repeater with assembly guide and field test reports. |
+
+
+
+
 
 ## Client
 
@@ -74,28 +117,30 @@ Grouped by platform. Apps marked 🔒 are closed source.
 
 | Project Name | Description | Last Updated |
 | :--- | :--- | :---: |
-| [Official app](https://files.liamcottle.net/MeshCore/) 🔒 | Proprietary companion app, also on Google Play and the App Store. | |
 | [Meshcore Open](https://github.com/zjs81/meshcore-open) ![GitHub Repo stars](https://img.shields.io/github/stars/zjs81/meshcore-open?style=social) | Open-source Flutter client for mobile and desktop (Android, iOS, GNU/Linux, Windows, macOS). | ![GitHub last commit](https://img.shields.io/github/last-commit/zjs81/meshcore-open) |
-| [MCO Advanced](https://github.com/HDDen/meshcore-open) ![GitHub Repo stars](https://img.shields.io/github/stars/HDDen/meshcore-open?style=social) | MeshCore Open fork with one-packet lossless image sending (MCOimg), built-in wardriving and text compression. | ![GitHub last commit](https://img.shields.io/github/last-commit/HDDen/meshcore-open) |
-| [KIEKR](https://kiekr.app/) 🔒 | iOS and Android community toolbox app; can display incoming message scope, upload data to analysers, unlimited contacts. | |
+| [Official app](https://files.liamcottle.net/MeshCore/) 🔒 | Proprietary companion app, also on Google Play and the App Store. | |
 | [Meshcore SAR](https://github.com/dz0ny/meshcore-sar) ![GitHub Repo stars](https://img.shields.io/github/stars/dz0ny/meshcore-sar?style=social) | Offline-first search-and-rescue app: messaging, voice, images, maps and live location context in one app. (AI code) | ![GitHub last commit](https://img.shields.io/github/last-commit/dz0ny/meshcore-sar) |
-| [Nelos](https://nelos.app/) 🔒 | iOS/Android app for group messaging and tracking people, pets and belongings, with downloadable offline maps. | |
+| [MeshCore TEAM](https://github.com/tmacinc/MeshCore-TEAM) ![GitHub Repo stars](https://img.shields.io/github/stars/tmacinc/MeshCore-TEAM?style=social) | Source of the cross-platform MeshCore TEAM companion app: team-oriented location tracking, messaging, contacts, channels and maps on stock firmware. | ![GitHub last commit](https://img.shields.io/github/last-commit/tmacinc/MeshCore-TEAM) |
+| [MCO Advanced](https://github.com/HDDen/meshcore-open) ![GitHub Repo stars](https://img.shields.io/github/stars/HDDen/meshcore-open?style=social) | MeshCore Open fork with one-packet lossless image sending (MCOimg), built-in wardriving and text compression. | ![GitHub last commit](https://img.shields.io/github/last-commit/HDDen/meshcore-open) |
 | [Offband MeshCore](https://github.com/OffbandMesh/meshcore-client) ![GitHub Repo stars](https://img.shields.io/github/stars/OffbandMesh/meshcore-client?style=social) | Cross-platform client with direct and channel chat. | ![GitHub last commit](https://img.shields.io/github/last-commit/OffbandMesh/meshcore-client) |
 | [SigurdOS Client](https://github.com/hermes-gadget/SigurdOS-client) ![GitHub Repo stars](https://img.shields.io/github/stars/hermes-gadget/SigurdOS-client?style=social) | Companion app for GNU/Linux, Android, iOS, Windows, macOS, forked from Meshcore Open for "SigurdOS T-Deck" firmware. | ![GitHub last commit](https://img.shields.io/github/last-commit/hermes-gadget/SigurdOS-client) |
-| [MeshCore TEAM](https://github.com/tmacinc/MeshCore-TEAM) ![GitHub Repo stars](https://img.shields.io/github/stars/tmacinc/MeshCore-TEAM?style=social) | Source of the cross-platform MeshCore TEAM companion app: team-oriented location tracking, messaging, contacts, channels and maps on stock firmware. | ![GitHub last commit](https://img.shields.io/github/last-commit/tmacinc/MeshCore-TEAM) |
+| [Nelos](https://nelos.app/) 🔒 | iOS/Android app for group messaging and tracking people, pets and belongings, with downloadable offline maps. | |
+| [KIEKR](https://kiekr.app/) 🔒 | iOS and Android community toolbox app; can display incoming message scope, upload data to analysers, unlimited contacts. | |
+
 
 ### Android
 
 | Project Name | Description | Last Updated |
 | :--- | :--- | :---: |
-| [meshcore-mobile-app](https://github.com/thatSFguy/meshcore-mobile-app) ![GitHub Repo stars](https://img.shields.io/github/stars/thatSFguy/meshcore-mobile-app?style=social) | Hardened Android client, no Google Play Services required. | ![GitHub last commit](https://img.shields.io/github/last-commit/thatSFguy/meshcore-mobile-app) |
-| [MeshCore-TEAM](https://play.google.com/store/apps/details?id=com.meshcore.team) 🔒 | Android client focused on group operations (Play Store build of [MeshCore TEAM](https://github.com/tmacinc/MeshCore-TEAM)). | |
-| [Tactical Emergency Area Messaging](https://github.com/tmacinc/meshcore-team-alpha) ![GitHub Repo stars](https://img.shields.io/github/stars/tmacinc/meshcore-team-alpha?style=social) | Android application for position tracking and messaging. | ![GitHub last commit](https://img.shields.io/github/last-commit/tmacinc/meshcore-team-alpha) |
 | [Meshcore-Wardrive-Android](https://github.com/mintylinux/Meshcore-Wardrive-Android) ![GitHub Repo stars](https://img.shields.io/github/stars/mintylinux/Meshcore-Wardrive-Android?style=social) | Flutter wardriving and mapping app. | ![GitHub last commit](https://img.shields.io/github/last-commit/mintylinux/Meshcore-Wardrive-Android) |
-| [meshGO!](https://play.google.com/store/apps/details?id=com.meshcore.meshgo) 🔒 | Android off-grid messaging client. | |
-| [MeshMapper](https://play.google.com/store/apps/details?id=net.meshmapper.app) 🔒 | Android coverage mapping and wardriving app. | |
+| [Tactical Emergency Area Messaging](https://github.com/tmacinc/meshcore-team-alpha) ![GitHub Repo stars](https://img.shields.io/github/stars/tmacinc/meshcore-team-alpha?style=social) | Android application for position tracking and messaging. | ![GitHub last commit](https://img.shields.io/github/last-commit/tmacinc/meshcore-team-alpha) |
+| [meshcore-mobile-app](https://github.com/thatSFguy/meshcore-mobile-app) ![GitHub Repo stars](https://img.shields.io/github/stars/thatSFguy/meshcore-mobile-app?style=social) | Hardened Android client, no Google Play Services required. | ![GitHub last commit](https://img.shields.io/github/last-commit/thatSFguy/meshcore-mobile-app) |
 | [meshtrax](https://github.com/venamartin/meshtrax) ![GitHub Repo stars](https://img.shields.io/github/stars/venamartin/meshtrax?style=social) | Flutter Android client with mapping and messaging. | ![GitHub last commit](https://img.shields.io/github/last-commit/venamartin/meshtrax) |
 | [Yours](https://github.com/STCisGOOD/yours-x-lunarcore) ![GitHub Repo stars](https://img.shields.io/github/stars/STCisGOOD/yours-x-lunarcore?style=social) | Android encrypted P2P messaging client for LunarCore firmware, with onion-routing experiments. | ![GitHub last commit](https://img.shields.io/github/last-commit/STCisGOOD/yours-x-lunarcore) |
+| [MeshCore-TEAM](https://play.google.com/store/apps/details?id=com.meshcore.team) 🔒 | Android client focused on group operations (Play Store build of [MeshCore TEAM](https://github.com/tmacinc/MeshCore-TEAM)). | |
+| [meshGO!](https://play.google.com/store/apps/details?id=com.meshcore.meshgo) 🔒 | Android off-grid messaging client. | |
+| [MeshMapper](https://play.google.com/store/apps/details?id=net.meshmapper.app) 🔒 | Android coverage mapping and wardriving app. | |
+
 
 ### iOS and Apple
 
@@ -112,11 +157,11 @@ Grouped by platform. Apps marked 🔒 are closed source.
 | [MeshApp](https://github.com/smikme/meshapp) ![GitHub Repo stars](https://img.shields.io/github/stars/smikme/meshapp?style=social) | Desktop client for MeshCore and Meshtastic with telemetry views. | ![GitHub last commit](https://img.shields.io/github/last-commit/smikme/meshapp) |
 | [MeshCore gui](https://github.com/pe1hvh/meshcore-gui) ![GitHub Repo stars](https://img.shields.io/github/stars/pe1hvh/meshcore-gui?style=social) | Native desktop client over BLE, no firmware changes required. | ![GitHub last commit](https://img.shields.io/github/last-commit/pe1hvh/meshcore-gui) |
 | [MeshCore Insights](https://github.com/BomBefok/MeshcoreInsights) ![GitHub Repo stars](https://img.shields.io/github/stars/BomBefok/MeshcoreInsights?style=social) | Desktop dashboard with live maps, telemetry analysis and remote node management. | ![GitHub last commit](https://img.shields.io/github/last-commit/BomBefok/MeshcoreInsights) |
-| [meshcore-bin (AUR)](https://aur.archlinux.org/packages/meshcore-bin) 🔒 | Arch Linux package of the official app. | |
 | [MeshCoreQt](https://github.com/zhrkvl/MeshCoreQt) ![GitHub Repo stars](https://img.shields.io/github/stars/zhrkvl/MeshCoreQt?style=social) | Qt desktop client. | ![GitHub last commit](https://img.shields.io/github/last-commit/zhrkvl/MeshCoreQt) |
 | [meshy](https://codeberg.org/sesivany/meshy) | GTK4/libadwaita client for Linux and macOS, aiming for the best Linux experience. | |
 | [PyMeshCoreGUI](https://github.com/bliksemlabs/PyMeshCoreGUI) ![GitHub Repo stars](https://img.shields.io/github/stars/bliksemlabs/PyMeshCoreGUI?style=social) | Qt6 and Python desktop client. | ![GitHub last commit](https://img.shields.io/github/last-commit/bliksemlabs/PyMeshCoreGUI) |
 | [QMeshcoreApp](https://github.com/FelixvdDonk/QMeshcoreApp) ![GitHub Repo stars](https://img.shields.io/github/stars/FelixvdDonk/QMeshcoreApp?style=social) | Qt6/QML desktop companion with BLE/serial, map and RX log. | ![GitHub last commit](https://img.shields.io/github/last-commit/FelixvdDonk/QMeshcoreApp) |
+| [meshcore-bin (AUR)](https://aur.archlinux.org/packages/meshcore-bin) 🔒 | Arch Linux package of the official app. | |
 
 ### Web
 
@@ -135,11 +180,12 @@ Grouped by platform. Apps marked 🔒 are closed source.
 | Project Name | Description | Last Updated |
 | :--- | :--- | :---: |
 | [MeshChaTUI](https://github.com/g-d-j-evans/MeschaTUI) ![GitHub Repo stars](https://img.shields.io/github/stars/g-d-j-evans/MeschaTUI?style=social) | Textual terminal client for Linux with delivery confirmation over serial or BLE. | ![GitHub last commit](https://img.shields.io/github/last-commit/g-d-j-evans/MeschaTUI) |
-| [MeshTerm](https://meshterm.net/) 🔒 | Cross-platform TUI client over USB, BLE or TCP with maps, traceroute and message-path views. | |
 | [meshtui](https://github.com/ekollof/meshtui) ![GitHub Repo stars](https://img.shields.io/github/stars/ekollof/meshtui?style=social) | Textual terminal client with delivery tracking and device management. | ![GitHub last commit](https://img.shields.io/github/last-commit/ekollof/meshtui) |
 | [QTC](https://github.com/initsixdev/QTC) ![GitHub Repo stars](https://img.shields.io/github/stars/initsixdev/QTC?style=social) | Old-school terminal client for Linux and macOS. | ![GitHub last commit](https://img.shields.io/github/last-commit/initsixdev/QTC) |
 | [Remote Terminal for MeshCore](https://github.com/MichTronics/Remote-Terminal-for-MeshCore) ![GitHub Repo stars](https://img.shields.io/github/stars/MichTronics/Remote-Terminal-for-MeshCore?style=social) | Remote terminal for repeaters with packet capture and MQTT. | ![GitHub last commit](https://img.shields.io/github/last-commit/MichTronics/Remote-Terminal-for-MeshCore) |
 | [tui-meshcore](https://github.com/guax/tui-meshcore) ![GitHub Repo stars](https://img.shields.io/github/stars/guax/tui-meshcore?style=social) | Terminal chat client with persistent history and regional presets. | ![GitHub last commit](https://img.shields.io/github/last-commit/guax/tui-meshcore) |
+| [MeshTerm](https://meshterm.net/) 🔒 | Cross-platform TUI client over USB, BLE or TCP with maps, traceroute and message-path views. | |
+
 
 ### Other Platforms
 
@@ -149,6 +195,74 @@ Grouped by platform. Apps marked 🔒 are closed source.
 | [PicoMeshCore](https://github.com/Vigoleis912/PicoMeshCore) ![GitHub Repo stars](https://img.shields.io/github/stars/Vigoleis912/PicoMeshCore?style=social) | MMBasic companion client for the Raspberry Pi Pico (PicoMite) over UART. | ![GitHub last commit](https://img.shields.io/github/last-commit/Vigoleis912/PicoMeshCore) |
 | [Roadstr](https://github.com/jooray/roadstr) ![GitHub Repo stars](https://img.shields.io/github/stars/jooray/roadstr?style=social) | Decentralized road-event reporting over signed Nostr events with MeshCore as transport — "Waze without the centralized tracking." | ![GitHub last commit](https://img.shields.io/github/last-commit/jooray/roadstr) |
 | [Sestriere](https://github.com/atomozero/Sestriere) ![GitHub Repo stars](https://img.shields.io/github/stars/atomozero/Sestriere?style=social) | Native Haiku OS client with maps, packet analysis and repeater administration. (AI code) | ![GitHub last commit](https://img.shields.io/github/last-commit/atomozero/Sestriere) |
+
+## Firmware and Flashing
+
+### Custom Firmware
+
+Firmware marked 🔒 is closed source.
+
+| Project Name | Description | Last Updated |
+| :--- | :--- | :---: |
+| [Aurora](https://forge.hackers.town/Wrewdison/Aurora) | **LilyGO T-Deck.** Standalone firmware with contact management and BLE companion support, an alternative to Ripple. | |
+| [BlackJackOS](https://github.com/Robert-Proaps/BlackJackOS-BJOS-) ![GitHub Repo stars](https://img.shields.io/github/stars/Robert-Proaps/BlackJackOS-BJOS-?style=social) | **LilyGo T-Deck, T-Deck Plus.** Portable toolbox and platform for building apps and functionality, with an application-oriented standalone interface. | ![GitHub last commit](https://img.shields.io/github/last-commit/Robert-Proaps/BlackJackOS-BJOS-) |
+| [chiyocore](https://github.com/kore-signet/chiyocore) ![GitHub Repo stars](https://img.shields.io/github/stars/kore-signet/chiyocore?style=social) | **Generic ESP32 with SX1262/SX1276.** Experimental Rust reimplementation of MeshCore, alternative to the C++ Arduino implementation. | ![GitHub last commit](https://img.shields.io/github/last-commit/kore-signet/chiyocore) |
+| [CubeCell MeshCore](https://github.com/atomozero/CubeCellMeshCore) ![GitHub Repo stars](https://img.shields.io/github/stars/atomozero/CubeCellMeshCore?style=social) | **Heltec CubeCell HTCC-AB01, AB02, AC01** (ASR6501 + SX1262). Repeater-only firmware optimised for solar deployments: store-and-forward mailbox, mesh health monitor, remote CLI, adaptive TX power, deep sleep (~3.5 µA). | ![GitHub last commit](https://img.shields.io/github/last-commit/atomozero/CubeCellMeshCore) |
+| [EastMesh](https://github.com/xJARiD/MeshCore-EastMesh) ![GitHub Repo stars](https://img.shields.io/github/stars/xJARiD/MeshCore-EastMesh?style=social) | MQTT repeater and WiFi companion builds with prebuilt releases. | ![GitHub last commit](https://img.shields.io/github/last-commit/xJARiD/MeshCore-EastMesh) |
+| [EasySkyMesh](https://github.com/IoTThinks/EasySkyMesh) ![GitHub Repo stars](https://img.shields.io/github/stars/IoTThinks/EasySkyMesh?style=social) | Power-saving fork for ultra-low-power repeater and sensor deployments. | ![GitHub last commit](https://img.shields.io/github/last-commit/IoTThinks/EasySkyMesh) |
+| [Fennek](https://github.com/danst0/fennek) ![GitHub Repo stars](https://img.shields.io/github/stars/danst0/fennek?style=social) | **LilyGO T-Deck Pro.** Adds music, audiobooks and eBooks alongside mesh chat. | ![GitHub last commit](https://img.shields.io/github/last-commit/danst0/fennek) |
+| [FieldMesh](https://github.com/TogeriX-hub/FieldMesh) ![GitHub Repo stars](https://img.shields.io/github/stars/TogeriX-hub/FieldMesh?style=social) | **Elecrow ThinkNode M1, Seeed Wio Tracker L1** (tested). Outdoor-focused fork for festivals, hiking and off-grid events: automatic GPS advertising, Haversine tracking page, one-press Off-Grid mode, SOS alerts. | ![GitHub last commit](https://img.shields.io/github/last-commit/TogeriX-hub/FieldMesh) |
+| [InkCore](https://codeberg.org/todd-herbert/InkCore) | AI-free BLE-companion firmware for small e-paper devices with configurable applets. | |
+| [LunarCore](https://github.com/STCisGOOD/lunarcore) ![GitHub Repo stars](https://img.shields.io/github/stars/STCisGOOD/lunarcore?style=social) | **Heltec WiFi LoRa 32 V3 (ESP32-S3 + SX1262).** Multi-protocol Rust firmware combining MeshCore, Meshtastic and RNode/KISS (Reticulum) on one device. | ![GitHub last commit](https://img.shields.io/github/last-commit/STCisGOOD/lunarcore) |
+| [MC-T5-Pro](https://github.com/dz0ny/meshcore-t5-epaper-s3-pro) ![GitHub Repo stars](https://img.shields.io/github/stars/dz0ny/meshcore-t5-epaper-s3-pro?style=social) | **LilyGo T5 ePaper S3 Pro.** A paper-like handheld MeshCore communicator. | ![GitHub last commit](https://img.shields.io/github/last-commit/dz0ny/meshcore-t5-epaper-s3-pro) |
+| [MCLite](https://github.com/laserir/MCLite) ![GitHub Repo stars](https://img.shields.io/github/stars/laserir/MCLite?style=social) | **LilyGO T-Deck Plus.** Simplified firmware for non-technical users: zero-config via SD card JSON, LVGL touch UI, DMs and channels, SOS, GPS sharing, multi-language, PIN lock, SD message history. | ![GitHub last commit](https://img.shields.io/github/last-commit/laserir/MCLite) |
+| [Meck](https://github.com/pelgraine/Meck) ![GitHub Repo stars](https://img.shields.io/github/stars/pelgraine/Meck?style=social) | **LilyGO T-Deck Pro, T-Deck Max, T5 E-Paper S3 Pro.** BLE and WiFi companion fork; early-stage, repeater and USB firmware still in development. | ![GitHub last commit](https://img.shields.io/github/last-commit/pelgraine/Meck) |
+| [Meck-P4](https://github.com/pelgraine/Meck-P4) ![GitHub Repo stars](https://img.shields.io/github/stars/pelgraine/Meck-P4?style=social) | **LilyGo T-Display P4 (ESP32-P4).** Port of Meck to the P4 platform. | ![GitHub last commit](https://img.shields.io/github/last-commit/pelgraine/Meck-P4) |
+| [Meshcomod](https://meshcomod.com/) ([GitHub repository](https://github.com/ALLFATHER-BV/meshcomod)) ![GitHub Repo stars](https://img.shields.io/github/stars/ALLFATHER-BV/meshcomod?style=social) | **Heltec and Seeed LoRa devices.** Companion firmware offering USB + Bluetooth + TCP simultaneously (phone app, web client or Home Assistant). | ![GitHub last commit](https://img.shields.io/github/last-commit/ALLFATHER-BV/meshcomod) |
+| [MeshCore Cardputer ADV (sosprz)](https://github.com/sosprz/meshcore-cardputer-adv) ![GitHub Repo stars](https://img.shields.io/github/stars/sosprz/meshcore-cardputer-adv?style=social) | **M5Stack Cardputer-ADV (ESP32-S3), Cap LoRa868.** Specialized UI; flashable via M5Burner, ESP flasher tools, or web flasher. | ![GitHub last commit](https://img.shields.io/github/last-commit/sosprz/meshcore-cardputer-adv) |
+| [MeshCore Cardputer ADV (Stachugit)](https://github.com/Stachugit/MeshCore-Cardputer-ADV) ![GitHub Repo stars](https://img.shields.io/github/stars/Stachugit/MeshCore-Cardputer-ADV?style=social) | **M5Stack Cardputer-ADV** with Cap LoRa868 or DX-LR30-900M22SP. Enhanced TFT UI with chat bubbles, 18 colour themes, notification popups, Bluetooth pairing. | ![GitHub last commit](https://img.shields.io/github/last-commit/Stachugit/MeshCore-Cardputer-ADV) |
+| [MeshCore Cardputer-ADV (MultiMote)](https://github.com/MultiMote/meshcore-cardputer-adv) ![GitHub Repo stars](https://img.shields.io/github/stars/MultiMote/meshcore-cardputer-adv?style=social) | **M5Stack Cardputer Adv with Cap LoRa-1262.** Fork for this module combination. | ![GitHub last commit](https://img.shields.io/github/last-commit/MultiMote/meshcore-cardputer-adv) |
+| [MeshCore Filter Firmware](https://github.com/jhuebert/MeshCore) ![GitHub Repo stars](https://img.shields.io/github/stars/jhuebert/MeshCore?style=social) | **All MeshCore repeater targets** (Heltec V3/V4, CT-62, Wireless Tracker; Station G2/G3; RAK4631/3401; SenseCap Solar; XIAO ESP32-S3/nRF52; T1000-E; Generic E22 SX1262). Remotely configurable drop/forward rules by channel, sender, text, packet type, hops, region and signal strength over the repeater CLI; per-rule throttling, advert rate limiting, saved-airtime telemetry, battery voltage gate. Prebuilt firmware on Releases (filter-v* tags); guide in FILTER.md. | ![GitHub last commit](https://img.shields.io/github/last-commit/jhuebert/MeshCore) |
+| [MeshCore Low-Power](https://github.com/dt267/MeshCore-Low-Power-Firmware-For-Heltec-V3-V4) ![GitHub Repo stars](https://img.shields.io/github/stars/dt267/MeshCore-Low-Power-Firmware-For-Heltec-V3-V4?style=social) | **Heltec V3/V4.** Deep-sleep builds with BLE, USB and WiFi in one image. | ![GitHub last commit](https://img.shields.io/github/last-commit/dt267/MeshCore-Low-Power-Firmware-For-Heltec-V3-V4) |
+| [MeshCore mishmesh](https://github.com/burakcan/MeshCore-mishmesh) ![GitHub Repo stars](https://img.shields.io/github/stars/burakcan/MeshCore-mishmesh?style=social) | On-device UI making a companion radio usable without a paired phone. | ![GitHub last commit](https://img.shields.io/github/last-commit/burakcan/MeshCore-mishmesh) |
+| [MeshCore PaperUI](https://github.com/dz0ny/meshcore-paperui) ![GitHub Repo stars](https://img.shields.io/github/stars/dz0ny/meshcore-paperui?style=social) | E-paper handheld firmware with standalone messaging, GPS and maps. | ![GitHub last commit](https://img.shields.io/github/last-commit/dz0ny/meshcore-paperui) |
+| [MeshCore Solo](https://github.com/MarekZegare4/MeshCore-Solo) ![GitHub Repo stars](https://img.shields.io/github/stars/MarekZegare4/MeshCore-Solo?style=social) | **Seeed Studio Wio Tracker L1 (OLED and eInk), GAT562 30S Mesh Kit.** Standalone firmware based on the official companion firmware, adding offline GPS navigation and GPX export. | ![GitHub last commit](https://img.shields.io/github/last-commit/MarekZegare4/MeshCore-Solo) |
+| [MeshCore T-beam-1W](https://github.com/mintylinux/Meshcore-T-beam-1W-Firmware) ![GitHub Repo stars](https://img.shields.io/github/stars/mintylinux/Meshcore-T-beam-1W-Firmware?style=social) | **LilyGO T-Beam 1 Watt** (SX1262, ESP32). Ported firmware with device-specific fixes for battery, boot loops and the 1W PA; includes a web flasher. | ![GitHub last commit](https://img.shields.io/github/last-commit/mintylinux/Meshcore-T-beam-1W-Firmware) |
+| [MeshCore TEAM enhanced firmware](https://github.com/tmacinc/MeshCore) ![GitHub Repo stars](https://img.shields.io/github/stars/tmacinc/MeshCore?style=social) | **Autonomous tracker custom firmware.** Layered on stock MeshCore, adding team-oriented GPS tracking, smart forwarding control and unattended autonomous operation. | ![GitHub last commit](https://img.shields.io/github/last-commit/tmacinc/MeshCore) |
+| [MeshCore Wio Tracker L1 Pro (sosprz)](https://github.com/sosprz/Meshcore-Wio-Tracker-L1-Pro) ![GitHub Repo stars](https://img.shields.io/github/stars/sosprz/Meshcore-Wio-Tracker-L1-Pro?style=social) | **Seeed Studio Wio Tracker L1 Pro.** On-device companion UI with UF2 drag-and-drop and web flasher support. | ![GitHub last commit](https://img.shields.io/github/last-commit/sosprz/Meshcore-Wio-Tracker-L1-Pro) |
+| [MeshcoreGRID](https://github.com/Quark1980/MeshcoreGRID) ![GitHub Repo stars](https://img.shields.io/github/stars/Quark1980/MeshcoreGRID?style=social) | **Heltec WiFi LoRa 32 V4 TFT** (ESP32-S3, FT6336 touchscreen). Touch-first UI with Messenger (DM + channel chat, ACK tracking), Discover (advert browser), Radio/BLE/Settings/Power apps, pinch-to-zoom Map. BETA. | ![GitHub last commit](https://img.shields.io/github/last-commit/Quark1980/MeshcoreGRID) |
+| [MeshCoreNG](https://github.com/MichTronics/MeshCoreNG) ![GitHub Repo stars](https://img.shields.io/github/stars/MichTronics/MeshCoreNG?style=social) | Dutch fork focused on smarter repeaters for larger, busier meshes. | ![GitHub last commit](https://img.shields.io/github/last-commit/MichTronics/MeshCoreNG) |
+| [MeshCoreTel](https://github.com/VBart/MeshCoreTel-firmware) ![GitHub Repo stars](https://img.shields.io/github/stars/VBart/MeshCoreTel-firmware?style=social) | Repeater fork of EastMesh with WiFi, HTTPS API, web panel and MQTT. | ![GitHub last commit](https://img.shields.io/github/last-commit/VBart/MeshCoreTel-firmware) |
+| [MeshCoreTerm (Dabeani)](https://github.com/dabeani/meshcoreterm) ![GitHub Repo stars](https://img.shields.io/github/stars/dabeani/meshcoreterm?style=social) | **LilyGO T-Deck, T-Deck Plus, Seeed Studio SenseCap Indicator (TFT/D1Pro).** Retro-themed, touch-first UI: tabbed interface (Contacts, Channels, Map, Mgmt), slippy tile map, D-pad/trackball support, RSSI/SNR display, telemetry. | ![GitHub last commit](https://img.shields.io/github/last-commit/dabeani/meshcoreterm) |
+| [MeshPunk](https://github.com/PhilMo6/meshpunk) ![GitHub Repo stars](https://img.shields.io/github/stars/PhilMo6/meshpunk?style=social) | **LilyGo T-Deck.** LVGL and Lua handheld firmware. | ![GitHub last commit](https://img.shields.io/github/last-commit/PhilMo6/meshpunk) |
+| [MeshUltra](https://tdeck.ubnzeek.com/) 🔒 | **LilyGo T-Deck, T-Deck+.** Firmware for both devices. | |
+| [Offband Mesh](https://github.com/OffbandMesh/meshcore-firmware) ![GitHub Repo stars](https://img.shields.io/github/stars/OffbandMesh/meshcore-firmware?style=social) | Cross-role firmware enhancements and optimisation. | ![GitHub last commit](https://img.shields.io/github/last-commit/OffbandMesh/meshcore-firmware) |
+| [Saitama](https://github.com/868meshbot/Saitama) ![GitHub Repo stars](https://img.shields.io/github/stars/868meshbot/Saitama?style=social) | **LilyGo T-Deck, T-Deck Plus.** Standalone firmware for LoRa mesh devices, built on MeshCore. | ![GitHub last commit](https://img.shields.io/github/last-commit/868meshbot/Saitama) |
+| [SigurdOS T-Deck](https://github.com/hermes-gadget/SigurdOS-tdeck) ![GitHub Repo stars](https://img.shields.io/github/stars/hermes-gadget/SigurdOS-tdeck?style=social) | Launcher-style touch UI for the T-Deck with maps and over-the-air updates. GPL-3.0-or-later. | ![GitHub last commit](https://img.shields.io/github/last-commit/hermes-gadget/SigurdOS-tdeck) |
+| [TapTap Firmware (T1000-E)](https://github.com/mtoolstec/TapTapFW) ![GitHub Repo stars](https://img.shields.io/github/stars/mtoolstec/TapTapFW?style=social) | **Seeed Studio T1000-E, RAK WisMesh Tag.** Headless button-interaction firmware: canned messages, Morse entry, GPS toggle, RTTTL/CW buzzer alerts. | ![GitHub last commit](https://img.shields.io/github/last-commit/mtoolstec/TapTapFW) |
+| [Trail Mate](https://github.com/vicliu624/trail-mate) ![GitHub Repo stars](https://img.shields.io/github/stars/vicliu624/trail-mate?style=social) | **LilyGO T-LoRa-Pager, T-Deck** (primary); M5Stack Tab5, T-Display P4 (bring-up); T-Watch S3 (experimental). Offline-first navigation with offline GPS maps, Meshtastic + MeshCore messaging, SSTV receiver, FSK+Codec2 walkie-talkie, ESP-NOW team mode, Sub-GHz sweep. | ![GitHub last commit](https://img.shields.io/github/last-commit/vicliu624/trail-mate) |
+| [Wadamesh](https://www.wadamesh.com/) ([GitHub repository](https://github.com/ALLFATHER-BV/wadamesh)) ![GitHub Repo stars](https://img.shields.io/github/stars/ALLFATHER-BV/wadamesh?style=social) | **Heltec V4 TFT/touch, LilyGo T-Deck.** Standalone LVGL touch UI: on-device chat, channels, rooms, contacts, live map, OTA updates, no phone required. Split out of Meshcomod. | ![GitHub last commit](https://img.shields.io/github/last-commit/ALLFATHER-BV/wadamesh) |
+| [ZephCore](https://github.com/liquidraver/ZephCore) ![GitHub Repo stars](https://img.shields.io/github/stars/liquidraver/ZephCore?style=social) | **nRF52840:** Wio Tracker L1, Seeed T1000-E, RAK4631, RAK WisMesh Tag, ThinkNode M1, Ikoka Nano 30dBm. **ESP32:** XIAO ESP32-C3/C6, Station G2, LilyGo TLoRa C6. **Other:** XIAO nRF54L15, XIAO MG24. Port from Arduino to Zephyr RTOS: WFI sleep, adaptive contention window, CAD-based RX duty cycling, UF2/DFU. | ![GitHub last commit](https://img.shields.io/github/last-commit/liquidraver/ZephCore) |
+
+### Flashing and Updating
+
+| Project Name | Description | Last Updated |
+| :--- | :--- | :---: |
+| [Drone MeshCore Updater](https://github.com/recrof/drone_meshcore_updater) ![GitHub Repo stars](https://img.shields.io/github/stars/recrof/drone_meshcore_updater?style=social) | Zephyr firmware for Seeed XIAO boards that carries firmware bundles to unreachable repeaters by drone or on foot and flashes over BLE DFU, with a PWA web client. | ![GitHub last commit](https://img.shields.io/github/last-commit/recrof/drone_meshcore_updater) |
+| [Heltec V4.2 Multi-Boot Selector](https://github.com/Finmacjones/HeltecV4.2MultiBoot) ![GitHub Repo stars](https://img.shields.io/github/stars/Finmacjones/HeltecV4.2MultiBoot?style=social) | **Heltec WiFi LoRa 32 V4.2 (ESP32-S3).** 4 OTA slots (3 MB each) in 16 MB flash; switches between Meshtastic, MeshCore, RNode and a spare slot via OLED menu and USER button, with per-firmware NVS/filesystem isolation. | ![GitHub last commit](https://img.shields.io/github/last-commit/Finmacjones/HeltecV4.2MultiBoot) |
+| [Mesh Loader](https://github.com/eliahreeves/mesh-loader) ![GitHub Repo stars](https://img.shields.io/github/stars/eliahreeves/mesh-loader?style=social) | **Heltec WiFi LoRa 32 V3/V4** (other 8 MB+ flash ESP32 devices can be added). "Dual Boot" firmware switching between MeshCore and Meshtastic at boot via a 2-second button press, with isolated NVS/filesystem data per firmware. | ![GitHub last commit](https://img.shields.io/github/last-commit/eliahreeves/mesh-loader) |
+| [MeshCore Custom Firmware Builder](https://github.com/christian45410/meshcore-cfw-builder) ![GitHub Repo stars](https://img.shields.io/github/stars/christian45410/meshcore-cfw-builder?style=social) | **All MeshCore-supported ESP32 boards.** Web-based firmware builder: select board, firmware type and custom flags, get a compiled .bin back. | ![GitHub last commit](https://img.shields.io/github/last-commit/christian45410/meshcore-cfw-builder) |
+| [MeshCore Drone Updater](https://github.com/lucidnx/meshcore-drone-updater) ![GitHub Repo stars](https://img.shields.io/github/stars/lucidnx/meshcore-drone-updater?style=social) | Raspberry Pi service for drive-by or drone-assisted DFU updates of physically unreachable nodes. | ![GitHub last commit](https://img.shields.io/github/last-commit/lucidnx/meshcore-drone-updater) |
+| [MeshCore-OTA-Flasher](https://github.com/Dreikor17/MeshCore-OTA-Flasher) ![GitHub Repo stars](https://img.shields.io/github/stars/Dreikor17/MeshCore-OTA-Flasher?style=social) | Windows tool for nRF52840 firmware updates over Bluetooth LE. | ![GitHub last commit](https://img.shields.io/github/last-commit/Dreikor17/MeshCore-OTA-Flasher) |
+| [MeshFirmware](https://github.com/mikecarper/meshfirmware) ![GitHub Repo stars](https://img.shields.io/github/stars/mikecarper/meshfirmware?style=social) | Interactive Windows and Linux scripts for selecting, flashing and compiling releases. | ![GitHub last commit](https://img.shields.io/github/last-commit/mikecarper/meshfirmware) |
+| [MeshForge](https://github.com/MeshEnvy/mesh-forge) ![GitHub Repo stars](https://img.shields.io/github/stars/MeshEnvy/mesh-forge?style=social) | Cloud firmware builder and web flasher for LoRa mesh devices. | ![GitHub last commit](https://img.shields.io/github/last-commit/MeshEnvy/mesh-forge) |
+| [MeshCore OTA guide](https://github.com/Mraanderson/meshcore-ota) ![GitHub Repo stars](https://img.shields.io/github/stars/Mraanderson/meshcore-ota?style=social) | Step-by-step OTA firmware update guide for repeaters and room servers. | ![GitHub last commit](https://img.shields.io/github/last-commit/Mraanderson/meshcore-ota) |
+| [Python Nordic Legacy DFU Tool](https://github.com/recrof/nrf_dfu_py) ![GitHub Repo stars](https://img.shields.io/github/stars/recrof/nrf_dfu_py?style=social) | Cross-platform nRF51/nRF52 Bluetooth DFU tool with GUI and CLI. | ![GitHub last commit](https://img.shields.io/github/last-commit/recrof/nrf_dfu_py) |
+| [XIAO nRF52 Updater](https://github.com/recrof/xiao_nrf52_updater) ![GitHub Repo stars](https://img.shields.io/github/stars/recrof/xiao_nrf52_updater?style=social) | Updater firmware that flashes nearby nRF52 nodes over Bluetooth DFU. | ![GitHub last commit](https://img.shields.io/github/last-commit/recrof/xiao_nrf52_updater) |
+| [Mesh America Device Configurator](https://meshamerica.com/device-configurator/) 🔒 | Browser flasher and configurator over Web Serial. | |
+| [weebl2000's Firmware Builder](https://mcimages.weebl.me/) 🔒 | **All MeshCore-supported boards.** Build and download firmware images for your device. | |
+
+
 
 ## Libraries and SDKs
 
@@ -243,119 +357,14 @@ Grouped by platform. Apps marked 🔒 are closed source.
 | Project Name | Description | Last Updated |
 | :--- | :--- | :---: |
 | [Map Tiles Downloader](https://github.com/tekk/map-tiles-downloader) ![GitHub Repo stars](https://img.shields.io/github/stars/tekk/map-tiles-downloader?style=social) | Terminal utility for downloading offline OpenStreetMap tiles for mesh apps. | ![GitHub last commit](https://img.shields.io/github/last-commit/tekk/map-tiles-downloader) |
-| [Mesh Utility](https://mesh-utility.org/) 🔒 | Progressive Web App for mapping MeshCore LoRa coverage with optional cloud ingestion. | |
-| [MeshCore Geo Prune](https://static.pixelentry.de/meshcore/geo-prune/) 🔒 | Browser tool that cleans the contact list with a geofence. | |
 | [MeshCore Proxy](https://github.com/rgregg/meshcore-proxy) ![GitHub Repo stars](https://img.shields.io/github/stars/rgregg/meshcore-proxy?style=social) | TCP proxy exposing a locally connected companion radio to remote clients. | ![GitHub last commit](https://img.shields.io/github/last-commit/rgregg/meshcore-proxy) |
 | [MeshCore Regions catalog](https://github.com/marcelverdult/meshcore-regions) ![GitHub Repo stars](https://img.shields.io/github/stars/marcelverdult/meshcore-regions?style=social) | Community-editable JSON catalog of region codes used worldwide, allowing listing of public channels. | ![GitHub last commit](https://img.shields.io/github/last-commit/marcelverdult/meshcore-regions) |
 | [MeshCore Utils (MC-Keygen)](https://github.com/samschlegel/meshcore-utils) ![GitHub Repo stars](https://img.shields.io/github/stars/samschlegel/meshcore-utils?style=social) | Rust vanity Ed25519 key generator with CUDA or Metal acceleration. (AI code) | ![GitHub last commit](https://img.shields.io/github/last-commit/samschlegel/meshcore-utils) |
 | [MeshCore Web Key Generator](https://github.com/agessaman/meshcore-web-keygen) ![GitHub Repo stars](https://img.shields.io/github/stars/agessaman/meshcore-web-keygen?style=social) | Browser-only Ed25519 key generator with custom public-key prefixes. | ![GitHub last commit](https://img.shields.io/github/last-commit/agessaman/meshcore-web-keygen) |
-| [MeshCore Web Keygen](https://gessaman.com/mc-keygen/) 🔒 | Client-side vanity Ed25519 key generator with custom hex prefixes. | |
 | [Reticulum Network Planner](https://github.com/0xSeren/Reticulum-Network-Planner) ![GitHub Repo stars](https://img.shields.io/github/stars/0xSeren/Reticulum-Network-Planner?style=social) | *(Applies to all LoRa.)* Given a number of LoRa nodes and a geographical area, calculates optimal node positions from geographical data. | ![GitHub last commit](https://img.shields.io/github/last-commit/0xSeren/Reticulum-Network-Planner) |
-
-## Firmware and Flashing
-
-### Custom Firmware
-
-Firmware marked 🔒 is closed source.
-
-| Project Name | Description | Last Updated |
-| :--- | :--- | :---: |
-| [Aurora](https://forge.hackers.town/Wrewdison/Aurora) | **LilyGO T-Deck.** Standalone firmware with contact management and BLE companion support, an alternative to Ripple. | |
-| [BlackJackOS](https://github.com/Robert-Proaps/BlackJackOS-BJOS-) ![GitHub Repo stars](https://img.shields.io/github/stars/Robert-Proaps/BlackJackOS-BJOS-?style=social) | **LilyGo T-Deck, T-Deck Plus.** Portable toolbox and platform for building apps and functionality, with an application-oriented standalone interface. | ![GitHub last commit](https://img.shields.io/github/last-commit/Robert-Proaps/BlackJackOS-BJOS-) |
-| [chiyocore](https://github.com/kore-signet/chiyocore) ![GitHub Repo stars](https://img.shields.io/github/stars/kore-signet/chiyocore?style=social) | **Generic ESP32 with SX1262/SX1276.** Experimental Rust reimplementation of MeshCore, alternative to the C++ Arduino implementation. | ![GitHub last commit](https://img.shields.io/github/last-commit/kore-signet/chiyocore) |
-| [CubeCell MeshCore](https://github.com/atomozero/CubeCellMeshCore) ![GitHub Repo stars](https://img.shields.io/github/stars/atomozero/CubeCellMeshCore?style=social) | **Heltec CubeCell HTCC-AB01, AB02, AC01** (ASR6501 + SX1262). Repeater-only firmware optimised for solar deployments: store-and-forward mailbox, mesh health monitor, remote CLI, adaptive TX power, deep sleep (~3.5 µA). | ![GitHub last commit](https://img.shields.io/github/last-commit/atomozero/CubeCellMeshCore) |
-| [EastMesh](https://github.com/xJARiD/MeshCore-EastMesh) ![GitHub Repo stars](https://img.shields.io/github/stars/xJARiD/MeshCore-EastMesh?style=social) | MQTT repeater and WiFi companion builds with prebuilt releases. | ![GitHub last commit](https://img.shields.io/github/last-commit/xJARiD/MeshCore-EastMesh) |
-| [EasySkyMesh](https://github.com/IoTThinks/EasySkyMesh) ![GitHub Repo stars](https://img.shields.io/github/stars/IoTThinks/EasySkyMesh?style=social) | Power-saving fork for ultra-low-power repeater and sensor deployments. | ![GitHub last commit](https://img.shields.io/github/last-commit/IoTThinks/EasySkyMesh) |
-| [Fennek](https://github.com/danst0/fennek) ![GitHub Repo stars](https://img.shields.io/github/stars/danst0/fennek?style=social) | **LilyGO T-Deck Pro.** Adds music, audiobooks and eBooks alongside mesh chat. | ![GitHub last commit](https://img.shields.io/github/last-commit/danst0/fennek) |
-| [FieldMesh](https://github.com/TogeriX-hub/FieldMesh) ![GitHub Repo stars](https://img.shields.io/github/stars/TogeriX-hub/FieldMesh?style=social) | **Elecrow ThinkNode M1, Seeed Wio Tracker L1** (tested). Outdoor-focused fork for festivals, hiking and off-grid events: automatic GPS advertising, Haversine tracking page, one-press Off-Grid mode, SOS alerts. | ![GitHub last commit](https://img.shields.io/github/last-commit/TogeriX-hub/FieldMesh) |
-| [InkCore](https://codeberg.org/todd-herbert/InkCore) | AI-free BLE-companion firmware for small e-paper devices with configurable applets. | |
-| [LunarCore](https://github.com/STCisGOOD/lunarcore) ![GitHub Repo stars](https://img.shields.io/github/stars/STCisGOOD/lunarcore?style=social) | **Heltec WiFi LoRa 32 V3 (ESP32-S3 + SX1262).** Multi-protocol Rust firmware combining MeshCore, Meshtastic and RNode/KISS (Reticulum) on one device. | ![GitHub last commit](https://img.shields.io/github/last-commit/STCisGOOD/lunarcore) |
-| [MC-T5-Pro](https://github.com/dz0ny/meshcore-t5-epaper-s3-pro) ![GitHub Repo stars](https://img.shields.io/github/stars/dz0ny/meshcore-t5-epaper-s3-pro?style=social) | **LilyGo T5 ePaper S3 Pro.** A paper-like handheld MeshCore communicator. | ![GitHub last commit](https://img.shields.io/github/last-commit/dz0ny/meshcore-t5-epaper-s3-pro) |
-| [MCLite](https://github.com/laserir/MCLite) ![GitHub Repo stars](https://img.shields.io/github/stars/laserir/MCLite?style=social) | **LilyGO T-Deck Plus.** Simplified firmware for non-technical users: zero-config via SD card JSON, LVGL touch UI, DMs and channels, SOS, GPS sharing, multi-language, PIN lock, SD message history. | ![GitHub last commit](https://img.shields.io/github/last-commit/laserir/MCLite) |
-| [Meck](https://github.com/pelgraine/Meck) ![GitHub Repo stars](https://img.shields.io/github/stars/pelgraine/Meck?style=social) | **LilyGO T-Deck Pro, T-Deck Max, T5 E-Paper S3 Pro.** BLE and WiFi companion fork; early-stage, repeater and USB firmware still in development. | ![GitHub last commit](https://img.shields.io/github/last-commit/pelgraine/Meck) |
-| [Meck-P4](https://github.com/pelgraine/Meck-P4) ![GitHub Repo stars](https://img.shields.io/github/stars/pelgraine/Meck-P4?style=social) | **LilyGo T-Display P4 (ESP32-P4).** Port of Meck to the P4 platform. | ![GitHub last commit](https://img.shields.io/github/last-commit/pelgraine/Meck-P4) |
-| [Meshcomod](https://meshcomod.com/) ([GitHub repository](https://github.com/ALLFATHER-BV/meshcomod)) ![GitHub Repo stars](https://img.shields.io/github/stars/ALLFATHER-BV/meshcomod?style=social) | **Heltec and Seeed LoRa devices.** Companion firmware offering USB + Bluetooth + TCP simultaneously (phone app, web client or Home Assistant). | ![GitHub last commit](https://img.shields.io/github/last-commit/ALLFATHER-BV/meshcomod) |
-| [MeshCore Cardputer ADV (sosprz)](https://github.com/sosprz/meshcore-cardputer-adv) ![GitHub Repo stars](https://img.shields.io/github/stars/sosprz/meshcore-cardputer-adv?style=social) | **M5Stack Cardputer-ADV (ESP32-S3), Cap LoRa868.** Specialized UI; flashable via M5Burner, ESP flasher tools, or web flasher. | ![GitHub last commit](https://img.shields.io/github/last-commit/sosprz/meshcore-cardputer-adv) |
-| [MeshCore Cardputer ADV (Stachugit)](https://github.com/Stachugit/MeshCore-Cardputer-ADV) ![GitHub Repo stars](https://img.shields.io/github/stars/Stachugit/MeshCore-Cardputer-ADV?style=social) | **M5Stack Cardputer-ADV** with Cap LoRa868 or DX-LR30-900M22SP. Enhanced TFT UI with chat bubbles, 18 colour themes, notification popups, Bluetooth pairing. | ![GitHub last commit](https://img.shields.io/github/last-commit/Stachugit/MeshCore-Cardputer-ADV) |
-| [MeshCore Cardputer-ADV (MultiMote)](https://github.com/MultiMote/meshcore-cardputer-adv) ![GitHub Repo stars](https://img.shields.io/github/stars/MultiMote/meshcore-cardputer-adv?style=social) | **M5Stack Cardputer Adv with Cap LoRa-1262.** Fork for this module combination. | ![GitHub last commit](https://img.shields.io/github/last-commit/MultiMote/meshcore-cardputer-adv) |
-| [MeshCore Filter Firmware](https://github.com/jhuebert/MeshCore) ![GitHub Repo stars](https://img.shields.io/github/stars/jhuebert/MeshCore?style=social) | **All MeshCore repeater targets** (Heltec V3/V4, CT-62, Wireless Tracker; Station G2/G3; RAK4631/3401; SenseCap Solar; XIAO ESP32-S3/nRF52; T1000-E; Generic E22 SX1262). Remotely configurable drop/forward rules by channel, sender, text, packet type, hops, region and signal strength over the repeater CLI; per-rule throttling, advert rate limiting, saved-airtime telemetry, battery voltage gate. Prebuilt firmware on Releases (filter-v* tags); guide in FILTER.md. | ![GitHub last commit](https://img.shields.io/github/last-commit/jhuebert/MeshCore) |
-| [MeshCore Low-Power](https://github.com/dt267/MeshCore-Low-Power-Firmware-For-Heltec-V3-V4) ![GitHub Repo stars](https://img.shields.io/github/stars/dt267/MeshCore-Low-Power-Firmware-For-Heltec-V3-V4?style=social) | **Heltec V3/V4.** Deep-sleep builds with BLE, USB and WiFi in one image. | ![GitHub last commit](https://img.shields.io/github/last-commit/dt267/MeshCore-Low-Power-Firmware-For-Heltec-V3-V4) |
-| [MeshCore mishmesh](https://github.com/burakcan/MeshCore-mishmesh) ![GitHub Repo stars](https://img.shields.io/github/stars/burakcan/MeshCore-mishmesh?style=social) | On-device UI making a companion radio usable without a paired phone. | ![GitHub last commit](https://img.shields.io/github/last-commit/burakcan/MeshCore-mishmesh) |
-| [MeshCore PaperUI](https://github.com/dz0ny/meshcore-paperui) ![GitHub Repo stars](https://img.shields.io/github/stars/dz0ny/meshcore-paperui?style=social) | E-paper handheld firmware with standalone messaging, GPS and maps. | ![GitHub last commit](https://img.shields.io/github/last-commit/dz0ny/meshcore-paperui) |
-| [MeshCore Solo](https://github.com/MarekZegare4/MeshCore-Solo) ![GitHub Repo stars](https://img.shields.io/github/stars/MarekZegare4/MeshCore-Solo?style=social) | **Seeed Studio Wio Tracker L1 (OLED and eInk), GAT562 30S Mesh Kit.** Standalone firmware based on the official companion firmware, adding offline GPS navigation and GPX export. | ![GitHub last commit](https://img.shields.io/github/last-commit/MarekZegare4/MeshCore-Solo) |
-| [MeshCore T-beam-1W](https://github.com/mintylinux/Meshcore-T-beam-1W-Firmware) ![GitHub Repo stars](https://img.shields.io/github/stars/mintylinux/Meshcore-T-beam-1W-Firmware?style=social) | **LilyGO T-Beam 1 Watt** (SX1262, ESP32). Ported firmware with device-specific fixes for battery, boot loops and the 1W PA; includes a web flasher. | ![GitHub last commit](https://img.shields.io/github/last-commit/mintylinux/Meshcore-T-beam-1W-Firmware) |
-| [MeshCore TEAM enhanced firmware](https://github.com/tmacinc/MeshCore) ![GitHub Repo stars](https://img.shields.io/github/stars/tmacinc/MeshCore?style=social) | **Autonomous tracker custom firmware.** Layered on stock MeshCore, adding team-oriented GPS tracking, smart forwarding control and unattended autonomous operation. | ![GitHub last commit](https://img.shields.io/github/last-commit/tmacinc/MeshCore) |
-| [MeshCore Wio Tracker L1 Pro (sosprz)](https://github.com/sosprz/Meshcore-Wio-Tracker-L1-Pro) ![GitHub Repo stars](https://img.shields.io/github/stars/sosprz/Meshcore-Wio-Tracker-L1-Pro?style=social) | **Seeed Studio Wio Tracker L1 Pro.** On-device companion UI with UF2 drag-and-drop and web flasher support. | ![GitHub last commit](https://img.shields.io/github/last-commit/sosprz/Meshcore-Wio-Tracker-L1-Pro) |
-| [MeshcoreGRID](https://github.com/Quark1980/MeshcoreGRID) ![GitHub Repo stars](https://img.shields.io/github/stars/Quark1980/MeshcoreGRID?style=social) | **Heltec WiFi LoRa 32 V4 TFT** (ESP32-S3, FT6336 touchscreen). Touch-first UI with Messenger (DM + channel chat, ACK tracking), Discover (advert browser), Radio/BLE/Settings/Power apps, pinch-to-zoom Map. BETA. | ![GitHub last commit](https://img.shields.io/github/last-commit/Quark1980/MeshcoreGRID) |
-| [MeshCoreNG](https://github.com/MichTronics/MeshCoreNG) ![GitHub Repo stars](https://img.shields.io/github/stars/MichTronics/MeshCoreNG?style=social) | Dutch fork focused on smarter repeaters for larger, busier meshes. | ![GitHub last commit](https://img.shields.io/github/last-commit/MichTronics/MeshCoreNG) |
-| [MeshCoreTel](https://github.com/VBart/MeshCoreTel-firmware) ![GitHub Repo stars](https://img.shields.io/github/stars/VBart/MeshCoreTel-firmware?style=social) | Repeater fork of EastMesh with WiFi, HTTPS API, web panel and MQTT. | ![GitHub last commit](https://img.shields.io/github/last-commit/VBart/MeshCoreTel-firmware) |
-| [MeshCoreTerm (Dabeani)](https://github.com/dabeani/meshcoreterm) ![GitHub Repo stars](https://img.shields.io/github/stars/dabeani/meshcoreterm?style=social) | **LilyGO T-Deck, T-Deck Plus, Seeed Studio SenseCap Indicator (TFT/D1Pro).** Retro-themed, touch-first UI: tabbed interface (Contacts, Channels, Map, Mgmt), slippy tile map, D-pad/trackball support, RSSI/SNR display, telemetry. | ![GitHub last commit](https://img.shields.io/github/last-commit/dabeani/meshcoreterm) |
-| [MeshPunk](https://github.com/PhilMo6/meshpunk) ![GitHub Repo stars](https://img.shields.io/github/stars/PhilMo6/meshpunk?style=social) | **LilyGo T-Deck.** LVGL and Lua handheld firmware. | ![GitHub last commit](https://img.shields.io/github/last-commit/PhilMo6/meshpunk) |
-| [MeshUltra](https://tdeck.ubnzeek.com/) 🔒 | **LilyGo T-Deck, T-Deck+.** Firmware for both devices. | |
-| [Offband Mesh](https://github.com/OffbandMesh/meshcore-firmware) ![GitHub Repo stars](https://img.shields.io/github/stars/OffbandMesh/meshcore-firmware?style=social) | Cross-role firmware enhancements and optimisation. | ![GitHub last commit](https://img.shields.io/github/last-commit/OffbandMesh/meshcore-firmware) |
-| [Saitama](https://github.com/868meshbot/Saitama) ![GitHub Repo stars](https://img.shields.io/github/stars/868meshbot/Saitama?style=social) | **LilyGo T-Deck, T-Deck Plus.** Standalone firmware for LoRa mesh devices, built on MeshCore. | ![GitHub last commit](https://img.shields.io/github/last-commit/868meshbot/Saitama) |
-| [SigurdOS T-Deck](https://github.com/hermes-gadget/SigurdOS-tdeck) ![GitHub Repo stars](https://img.shields.io/github/stars/hermes-gadget/SigurdOS-tdeck?style=social) | Launcher-style touch UI for the T-Deck with maps and over-the-air updates. GPL-3.0-or-later. | ![GitHub last commit](https://img.shields.io/github/last-commit/hermes-gadget/SigurdOS-tdeck) |
-| [TapTap Firmware (T1000-E)](https://github.com/mtoolstec/TapTapFW) ![GitHub Repo stars](https://img.shields.io/github/stars/mtoolstec/TapTapFW?style=social) | **Seeed Studio T1000-E, RAK WisMesh Tag.** Headless button-interaction firmware: canned messages, Morse entry, GPS toggle, RTTTL/CW buzzer alerts. | ![GitHub last commit](https://img.shields.io/github/last-commit/mtoolstec/TapTapFW) |
-| [Trail Mate](https://github.com/vicliu624/trail-mate) ![GitHub Repo stars](https://img.shields.io/github/stars/vicliu624/trail-mate?style=social) | **LilyGO T-LoRa-Pager, T-Deck** (primary); M5Stack Tab5, T-Display P4 (bring-up); T-Watch S3 (experimental). Offline-first navigation with offline GPS maps, Meshtastic + MeshCore messaging, SSTV receiver, FSK+Codec2 walkie-talkie, ESP-NOW team mode, Sub-GHz sweep. | ![GitHub last commit](https://img.shields.io/github/last-commit/vicliu624/trail-mate) |
-| [Wadamesh](https://www.wadamesh.com/) ([GitHub repository](https://github.com/ALLFATHER-BV/wadamesh)) ![GitHub Repo stars](https://img.shields.io/github/stars/ALLFATHER-BV/wadamesh?style=social) | **Heltec V4 TFT/touch, LilyGo T-Deck.** Standalone LVGL touch UI: on-device chat, channels, rooms, contacts, live map, OTA updates, no phone required. Split out of Meshcomod. | ![GitHub last commit](https://img.shields.io/github/last-commit/ALLFATHER-BV/wadamesh) |
-| [ZephCore](https://github.com/liquidraver/ZephCore) ![GitHub Repo stars](https://img.shields.io/github/stars/liquidraver/ZephCore?style=social) | **nRF52840:** Wio Tracker L1, Seeed T1000-E, RAK4631, RAK WisMesh Tag, ThinkNode M1, Ikoka Nano 30dBm. **ESP32:** XIAO ESP32-C3/C6, Station G2, LilyGo TLoRa C6. **Other:** XIAO nRF54L15, XIAO MG24. Port from Arduino to Zephyr RTOS: WFI sleep, adaptive contention window, CAD-based RX duty cycling, UF2/DFU. | ![GitHub last commit](https://img.shields.io/github/last-commit/liquidraver/ZephCore) |
-
-### Flashing and Updating
-
-| Project Name | Description | Last Updated |
-| :--- | :--- | :---: |
-| [Drone MeshCore Updater](https://github.com/recrof/drone_meshcore_updater) ![GitHub Repo stars](https://img.shields.io/github/stars/recrof/drone_meshcore_updater?style=social) | Zephyr firmware for Seeed XIAO boards that carries firmware bundles to unreachable repeaters by drone or on foot and flashes over BLE DFU, with a PWA web client. | ![GitHub last commit](https://img.shields.io/github/last-commit/recrof/drone_meshcore_updater) |
-| [Heltec V4.2 Multi-Boot Selector](https://github.com/Finmacjones/HeltecV4.2MultiBoot) ![GitHub Repo stars](https://img.shields.io/github/stars/Finmacjones/HeltecV4.2MultiBoot?style=social) | **Heltec WiFi LoRa 32 V4.2 (ESP32-S3).** 4 OTA slots (3 MB each) in 16 MB flash; switches between Meshtastic, MeshCore, RNode and a spare slot via OLED menu and USER button, with per-firmware NVS/filesystem isolation. | ![GitHub last commit](https://img.shields.io/github/last-commit/Finmacjones/HeltecV4.2MultiBoot) |
-| [Mesh America Device Configurator](https://meshamerica.com/device-configurator/) 🔒 | Browser flasher and configurator over Web Serial. | |
-| [Mesh Loader](https://github.com/eliahreeves/mesh-loader) ![GitHub Repo stars](https://img.shields.io/github/stars/eliahreeves/mesh-loader?style=social) | **Heltec WiFi LoRa 32 V3/V4** (other 8 MB+ flash ESP32 devices can be added). "Dual Boot" firmware switching between MeshCore and Meshtastic at boot via a 2-second button press, with isolated NVS/filesystem data per firmware. | ![GitHub last commit](https://img.shields.io/github/last-commit/eliahreeves/mesh-loader) |
-| [MeshCore Custom Firmware Builder](https://github.com/christian45410/meshcore-cfw-builder) ![GitHub Repo stars](https://img.shields.io/github/stars/christian45410/meshcore-cfw-builder?style=social) | **All MeshCore-supported ESP32 boards.** Web-based firmware builder: select board, firmware type and custom flags, get a compiled .bin back. | ![GitHub last commit](https://img.shields.io/github/last-commit/christian45410/meshcore-cfw-builder) |
-| [MeshCore Drone Updater](https://github.com/lucidnx/meshcore-drone-updater) ![GitHub Repo stars](https://img.shields.io/github/stars/lucidnx/meshcore-drone-updater?style=social) | Raspberry Pi service for drive-by or drone-assisted DFU updates of physically unreachable nodes. | ![GitHub last commit](https://img.shields.io/github/last-commit/lucidnx/meshcore-drone-updater) |
-| [MeshCore-OTA-Flasher](https://github.com/Dreikor17/MeshCore-OTA-Flasher) ![GitHub Repo stars](https://img.shields.io/github/stars/Dreikor17/MeshCore-OTA-Flasher?style=social) | Windows tool for nRF52840 firmware updates over Bluetooth LE. | ![GitHub last commit](https://img.shields.io/github/last-commit/Dreikor17/MeshCore-OTA-Flasher) |
-| [MeshFirmware](https://github.com/mikecarper/meshfirmware) ![GitHub Repo stars](https://img.shields.io/github/stars/mikecarper/meshfirmware?style=social) | Interactive Windows and Linux scripts for selecting, flashing and compiling releases. | ![GitHub last commit](https://img.shields.io/github/last-commit/mikecarper/meshfirmware) |
-| [MeshForge](https://github.com/MeshEnvy/mesh-forge) ![GitHub Repo stars](https://img.shields.io/github/stars/MeshEnvy/mesh-forge?style=social) | Cloud firmware builder and web flasher for LoRa mesh devices. | ![GitHub last commit](https://img.shields.io/github/last-commit/MeshEnvy/mesh-forge) |
-| [MeshCore OTA guide](https://github.com/Mraanderson/meshcore-ota) ![GitHub Repo stars](https://img.shields.io/github/stars/Mraanderson/meshcore-ota?style=social) | Step-by-step OTA firmware update guide for repeaters and room servers. | ![GitHub last commit](https://img.shields.io/github/last-commit/Mraanderson/meshcore-ota) |
-| [Python Nordic Legacy DFU Tool](https://github.com/recrof/nrf_dfu_py) ![GitHub Repo stars](https://img.shields.io/github/stars/recrof/nrf_dfu_py?style=social) | Cross-platform nRF51/nRF52 Bluetooth DFU tool with GUI and CLI. | ![GitHub last commit](https://img.shields.io/github/last-commit/recrof/nrf_dfu_py) |
-| [weebl2000's Firmware Builder](https://mcimages.weebl.me/) 🔒 | **All MeshCore-supported boards.** Build and download firmware images for your device. | |
-| [XIAO nRF52 Updater](https://github.com/recrof/xiao_nrf52_updater) ![GitHub Repo stars](https://img.shields.io/github/stars/recrof/xiao_nrf52_updater?style=social) | Updater firmware that flashes nearby nRF52 nodes over Bluetooth DFU. | ![GitHub last commit](https://img.shields.io/github/last-commit/recrof/xiao_nrf52_updater) |
-
-## Hardware
-
-### Supported Devices
-
-Compatibility references; check these before buying a board.
-
-| Resource | Description |
-| :--- | :--- |
-| [Mesh America supported hardware](https://wiki.meshamerica.com/books/meshcore/page/supported-hardware-for-meshcore) | Community list of compatible boards and chipsets. |
-| [mesh-sn.de firmware matrix](https://mesh-sn.de/en/devices/matrix) | Per-device matrix of which MeshCore firmware builds are available. |
-| [MeshCore Europe devices](https://meshcoreeurope.org/en/devices/) | Multilingual device directory with setup guides. |
-
-### Pre-built Devices
-
-Sold with MeshCore firmware pre-installed, or with MeshCore selectable at order.
-
-| Product | Description |
-| :--- | :--- |
-| [Seeed Wio Tracker L1 Pro for MeshCore](https://www.seeedstudio.com/Wio-Tracker-L1-Pro-for-Meshcore-p-6717.html) | Handheld with GPS, OLED display and battery. |
-| [SenseCAP Solar Node P1 Pro for MeshCore](https://www.seeedstudio.com/SenseCAP-Solar-Node-P1-Pro-for-Meshcore-p-6741.html) | Solar-powered outdoor repeater with GPS. |
-| [Seeed MeshCore Starter Kit](https://www.seeedstudio.com/MeshCore-Starter-Kit-Ready-to-Use-Off-Grid-Instant-Reliable-Communication.html) | Bundle of a repeater and client nodes ready to deploy. |
-| [RAK WisMesh Tag (Atlavox)](https://atlavox.com/products/wismesh-tag-meshtastic-meshcore-radio) | IP66 GPS tracker; choose the MeshCore variant when ordering. |
-| [Elecrow ThinkNode M9](https://www.elecrow.com/thinknode-m9-meshcore-communication-terminal-with-full-keyboard-2-4inch-lcd-esp32-s3-lr1110-gps-2300mah.html) | Standalone communicator with QWERTY keyboard, colour LCD and GPS. |
-| [LilyGo T-LoRa Pager MeshCore](https://lilygo.cc/products/t-lora-pager-meshcore) | Pocket pager with keyboard, display and LR1121 radio. |
-
-### DIY Builds
-
-Open designs with published files (PCB, BOM, STL or detailed build guide).
-
-| Project | Description |
-| :--- | :--- |
-| [915 MHz Mesh Antenna](https://github.com/ellisgl/915-mesh-antenna) ![GitHub Repo stars](https://img.shields.io/github/stars/ellisgl/915-mesh-antenna?style=social) | Stacked collinear antenna with simulation files and build dimensions. |
-| [bardolf MeshCore Repeater](https://github.com/bardolf/meshcore-repeater) ![GitHub Repo stars](https://img.shields.io/github/stars/bardolf/meshcore-repeater?style=social) | Solar repeater with FreeCAD enclosure, STL files and full BOM. |
-| [LoRaMeshNodes](https://github.com/hotwolf/LoRaMeshNodes) ![GitHub Repo stars](https://img.shields.io/github/stars/hotwolf/LoRaMeshNodes?style=social) | Mobile and solar nodes with OpenSCAD enclosures, STL files and BOMs. |
-| [MeshCore E22P Repeater](https://github.com/Sukecz/MeshCore-E22P-Repeater) ![GitHub Repo stars](https://img.shields.io/github/stars/Sukecz/MeshCore-E22P-Repeater?style=social) | XIAO ESP32-S3 repeater with an Ebyte E22P module, wiring and firmware. |
-| [NodakMesh solar repeater build](https://nodakmesh.org/blog/meshcore-solar-repeater-build) | Parts list, solar sizing, weatherproofing and configuration walkthrough. |
-| [RePeter](https://github.com/robrec/MeshCoreRepeater-RePeter) ![GitHub Repo stars](https://img.shields.io/github/stars/robrec/MeshCoreRepeater-RePeter?style=social) | Bremen repeater board with Gerbers, schematics, BOM and STEP model. |
-| [XIAO S3 Dual-Radio Repeater](https://github.com/bouyous/meshcore-xiao-s3-dual-radio-repeater) ![GitHub Repo stars](https://img.shields.io/github/stars/bouyous/meshcore-xiao-s3-dual-radio-repeater?style=social) | Two-radio summit repeater with assembly guide and field test reports. |
+| [Mesh Utility](https://mesh-utility.org/) 🔒 | Progressive Web App for mapping MeshCore LoRa coverage with optional cloud ingestion. | |
+| [MeshCore Web Keygen](https://gessaman.com/mc-keygen/) 🔒 | Client-side vanity Ed25519 key generator with custom hex prefixes. | |
+| [MeshCore Geo Prune](https://static.pixelentry.de/meshcore/geo-prune/) 🔒 | Browser tool that cleans the contact list with a geofence. | |
 
 ### Enclosures and Mounts
 
