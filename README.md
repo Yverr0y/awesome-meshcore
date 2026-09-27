@@ -11,6 +11,9 @@ sensor networks.
 
 - [Official Resources](#official-resources)
   - [Social Media](#social-media)
+- [Communities](#communities)
+  - [Virtual](#virtual)
+  - [Country / region sections](#country--region-websites)
 - [Hardware](#hardware)
   - [Pre-built Devices](#pre-built-devices)
   - [Supported Devices](#supported-devices)
@@ -37,9 +40,7 @@ sensor networks.
 - [Packet Analysis](#packet-analysis)
 - [Utilities](#utilities)
 - [Guides and Learning](#guides-and-learning)
-- [Communities](#communities)
-  - [Virtual](#virtual)
-  - [Country / region sections](#country--region-websites)
+
 
 Apps and firmware marked 🔒 are closed source.
 
