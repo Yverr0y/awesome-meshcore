@@ -65,6 +65,9 @@ Apps and firmware marked 🔒 are closed source.
 - [Mastodon](https://mastodon.social/@meshcore)
 - [YouTube](https://www.youtube.com/@meshcore-official)
 
+## Communites
+- [Communities](#communities)
+
 ## Hardware
 
 ### Pre-built Devices
@@ -436,7 +439,6 @@ Tools to see what is happening on the mesh.
 
 | Resource | Description |
 | :--- | :--- |
-| [Andy Kirby on YouTube](https://www.youtube.com/@andykirby) | Hardware reviews, repeater builds and firmware walkthroughs. |
 | [Austin Mesh setup guide](https://www.austinmesh.org/join/meshcore-setup/) | Beginner-friendly local setup. |
 | [Bravo.TAKKE.me MeshCore book](https://bravo.takke.me/books/meshcore) | Traditional Chinese guide: quick start, basic setup, firmware types, how MeshCore differs from Meshtastic. |
 | [J-Rat Techworks repeater guide](https://jrattechworks.com/meshcore-repeater-flashing-guide/) | Flashing and repeater setup. |
