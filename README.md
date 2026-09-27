@@ -64,8 +64,6 @@ Apps and firmware marked 🔒 are closed source.
 - [Mastodon](https://mastodon.social/@meshcore)
 - [YouTube](https://www.youtube.com/@meshcore-official)
 
-
-
 ## Hardware
 
 ### Pre-built Devices
@@ -105,9 +103,17 @@ Open designs with published files (PCB, BOM, STL or detailed build guide).
 | [RePeter](https://github.com/robrec/MeshCoreRepeater-RePeter) ![GitHub Repo stars](https://img.shields.io/github/stars/robrec/MeshCoreRepeater-RePeter?style=social) | Bremen repeater board with Gerbers, schematics, BOM and STEP model. |
 | [XIAO S3 Dual-Radio Repeater](https://github.com/bouyous/meshcore-xiao-s3-dual-radio-repeater) ![GitHub Repo stars](https://img.shields.io/github/stars/bouyous/meshcore-xiao-s3-dual-radio-repeater?style=social) | Two-radio summit repeater with assembly guide and field test reports. |
 
+### Enclosures and Mounts
 
-
-
+| Project | Description |
+| :--- | :--- |
+| ["Ray" Heltec V3 case](https://www.thingiverse.com/thing:7395161) | Handheld case with room for one 18650 cell. |
+| [Case-Stick for ProMicro nRF52](https://www.thingiverse.com/thing:7394936) | Stick-shaped case for ProMicro nRF52840 boards. |
+| [The Corebell](https://www.printables.com/model/1490873-the-corebell-a-meshcoremeshtastic-solar-node) | Printable solar node enclosure. |
+| [Heltec T114 case with battery](https://www.thingiverse.com/thing:7390213) | Compact handheld case with an integrated battery bay. |
+| [MeshCore mast enclosure for Heltec V3](https://www.printables.com/model/1767610-meshcore-mast-enclosure-heltec-v3) | Mast-mounted outdoor enclosure. |
+| [NodakMesh enclosures guide](https://nodakmesh.org/meshcore/enclosures) | Overview of commercial and DIY cases with IP-rating guidance. |
+| [Outdoor Case for MeshCore Node / Repeater](https://www.thingiverse.com/thing:7383479) | Printable weatherproof repeater case. |
 
 ## Client
 
@@ -167,11 +173,11 @@ Grouped by platform. Apps marked 🔒 are closed source.
 
 | Project Name | Description | Last Updated |
 | :--- | :--- | :---: |
+| [MC-WebUI](https://github.com/MarekWo/mc-webui) ![GitHub Repo stars](https://img.shields.io/github/stars/MarekWo/mc-webui?style=social) | WebUI for meshcore-cli. (AI code) | ![GitHub last commit](https://img.shields.io/github/last-commit/MarekWo/mc-webui) |
 | [Official web app](https://app.meshcore.io/) 🔒 | Browser build of the official companion app. | |
 | [meshcore-web (aXistem)](https://github.com/aXistem-dev/meshcore-web) ![GitHub Repo stars](https://img.shields.io/github/stars/aXistem-dev/meshcore-web?style=social) | Docker-ready browser build of the companion app over BLE or USB; image `ghcr.io/axistem-dev/meshcore-web`. | ![GitHub last commit](https://img.shields.io/github/last-commit/aXistem-dev/meshcore-web) |
 | [meshcore-web (Vue)](https://github.com/liamcottle/meshcore-web) ![GitHub Repo stars](https://img.shields.io/github/stars/liamcottle/meshcore-web?style=social) | Early Vue web client, superseded by the official app. | ![GitHub last commit](https://img.shields.io/github/last-commit/liamcottle/meshcore-web) |
 | [meshcore-webui](https://github.com/adradr/meshcore-webui) ![GitHub Repo stars](https://img.shields.io/github/stars/adradr/meshcore-webui?style=social) | Web UI for managing devices and chatting on the mesh. | ![GitHub last commit](https://img.shields.io/github/last-commit/adradr/meshcore-webui) |
-| [MC-WebUI](https://github.com/MarekWo/mc-webui) ![GitHub Repo stars](https://img.shields.io/github/stars/MarekWo/mc-webui?style=social) | WebUI for meshcore-cli. (AI code) | ![GitHub last commit](https://img.shields.io/github/last-commit/MarekWo/mc-webui) |
 | [MeshCorium](https://github.com/PEG4TRON/MeshCorium) ![GitHub Repo stars](https://img.shields.io/github/stars/PEG4TRON/MeshCorium?style=social) | Self-hosted client with a local web interface and hybrid contact system. | ![GitHub last commit](https://img.shields.io/github/last-commit/PEG4TRON/MeshCorium) |
 | [Mycelium](https://github.com/WattleFoxxo/Mycelium) ![GitHub Repo stars](https://img.shields.io/github/stars/WattleFoxxo/Mycelium?style=social) | Browser client for messaging over serial or BLE. | ![GitHub last commit](https://img.shields.io/github/last-commit/WattleFoxxo/Mycelium) |
 
@@ -204,7 +210,6 @@ Firmware marked 🔒 is closed source.
 
 | Project Name | Description | Last Updated |
 | :--- | :--- | :---: |
-| [Aurora](https://forge.hackers.town/Wrewdison/Aurora) | **LilyGO T-Deck.** Standalone firmware with contact management and BLE companion support, an alternative to Ripple. | |
 | [BlackJackOS](https://github.com/Robert-Proaps/BlackJackOS-BJOS-) ![GitHub Repo stars](https://img.shields.io/github/stars/Robert-Proaps/BlackJackOS-BJOS-?style=social) | **LilyGo T-Deck, T-Deck Plus.** Portable toolbox and platform for building apps and functionality, with an application-oriented standalone interface. | ![GitHub last commit](https://img.shields.io/github/last-commit/Robert-Proaps/BlackJackOS-BJOS-) |
 | [chiyocore](https://github.com/kore-signet/chiyocore) ![GitHub Repo stars](https://img.shields.io/github/stars/kore-signet/chiyocore?style=social) | **Generic ESP32 with SX1262/SX1276.** Experimental Rust reimplementation of MeshCore, alternative to the C++ Arduino implementation. | ![GitHub last commit](https://img.shields.io/github/last-commit/kore-signet/chiyocore) |
 | [CubeCell MeshCore](https://github.com/atomozero/CubeCellMeshCore) ![GitHub Repo stars](https://img.shields.io/github/stars/atomozero/CubeCellMeshCore?style=social) | **Heltec CubeCell HTCC-AB01, AB02, AC01** (ASR6501 + SX1262). Repeater-only firmware optimised for solar deployments: store-and-forward mailbox, mesh health monitor, remote CLI, adaptive TX power, deep sleep (~3.5 µA). | ![GitHub last commit](https://img.shields.io/github/last-commit/atomozero/CubeCellMeshCore) |
@@ -235,7 +240,6 @@ Firmware marked 🔒 is closed source.
 | [MeshCoreTel](https://github.com/VBart/MeshCoreTel-firmware) ![GitHub Repo stars](https://img.shields.io/github/stars/VBart/MeshCoreTel-firmware?style=social) | Repeater fork of EastMesh with WiFi, HTTPS API, web panel and MQTT. | ![GitHub last commit](https://img.shields.io/github/last-commit/VBart/MeshCoreTel-firmware) |
 | [MeshCoreTerm (Dabeani)](https://github.com/dabeani/meshcoreterm) ![GitHub Repo stars](https://img.shields.io/github/stars/dabeani/meshcoreterm?style=social) | **LilyGO T-Deck, T-Deck Plus, Seeed Studio SenseCap Indicator (TFT/D1Pro).** Retro-themed, touch-first UI: tabbed interface (Contacts, Channels, Map, Mgmt), slippy tile map, D-pad/trackball support, RSSI/SNR display, telemetry. | ![GitHub last commit](https://img.shields.io/github/last-commit/dabeani/meshcoreterm) |
 | [MeshPunk](https://github.com/PhilMo6/meshpunk) ![GitHub Repo stars](https://img.shields.io/github/stars/PhilMo6/meshpunk?style=social) | **LilyGo T-Deck.** LVGL and Lua handheld firmware. | ![GitHub last commit](https://img.shields.io/github/last-commit/PhilMo6/meshpunk) |
-| [MeshUltra](https://tdeck.ubnzeek.com/) 🔒 | **LilyGo T-Deck, T-Deck+.** Firmware for both devices. | |
 | [Offband Mesh](https://github.com/OffbandMesh/meshcore-firmware) ![GitHub Repo stars](https://img.shields.io/github/stars/OffbandMesh/meshcore-firmware?style=social) | Cross-role firmware enhancements and optimisation. | ![GitHub last commit](https://img.shields.io/github/last-commit/OffbandMesh/meshcore-firmware) |
 | [Saitama](https://github.com/868meshbot/Saitama) ![GitHub Repo stars](https://img.shields.io/github/stars/868meshbot/Saitama?style=social) | **LilyGo T-Deck, T-Deck Plus.** Standalone firmware for LoRa mesh devices, built on MeshCore. | ![GitHub last commit](https://img.shields.io/github/last-commit/868meshbot/Saitama) |
 | [SigurdOS T-Deck](https://github.com/hermes-gadget/SigurdOS-tdeck) ![GitHub Repo stars](https://img.shields.io/github/stars/hermes-gadget/SigurdOS-tdeck?style=social) | Launcher-style touch UI for the T-Deck with maps and over-the-air updates. GPL-3.0-or-later. | ![GitHub last commit](https://img.shields.io/github/last-commit/hermes-gadget/SigurdOS-tdeck) |
@@ -243,6 +247,8 @@ Firmware marked 🔒 is closed source.
 | [Trail Mate](https://github.com/vicliu624/trail-mate) ![GitHub Repo stars](https://img.shields.io/github/stars/vicliu624/trail-mate?style=social) | **LilyGO T-LoRa-Pager, T-Deck** (primary); M5Stack Tab5, T-Display P4 (bring-up); T-Watch S3 (experimental). Offline-first navigation with offline GPS maps, Meshtastic + MeshCore messaging, SSTV receiver, FSK+Codec2 walkie-talkie, ESP-NOW team mode, Sub-GHz sweep. | ![GitHub last commit](https://img.shields.io/github/last-commit/vicliu624/trail-mate) |
 | [Wadamesh](https://www.wadamesh.com/) ([GitHub repository](https://github.com/ALLFATHER-BV/wadamesh)) ![GitHub Repo stars](https://img.shields.io/github/stars/ALLFATHER-BV/wadamesh?style=social) | **Heltec V4 TFT/touch, LilyGo T-Deck.** Standalone LVGL touch UI: on-device chat, channels, rooms, contacts, live map, OTA updates, no phone required. Split out of Meshcomod. | ![GitHub last commit](https://img.shields.io/github/last-commit/ALLFATHER-BV/wadamesh) |
 | [ZephCore](https://github.com/liquidraver/ZephCore) ![GitHub Repo stars](https://img.shields.io/github/stars/liquidraver/ZephCore?style=social) | **nRF52840:** Wio Tracker L1, Seeed T1000-E, RAK4631, RAK WisMesh Tag, ThinkNode M1, Ikoka Nano 30dBm. **ESP32:** XIAO ESP32-C3/C6, Station G2, LilyGo TLoRa C6. **Other:** XIAO nRF54L15, XIAO MG24. Port from Arduino to Zephyr RTOS: WFI sleep, adaptive contention window, CAD-based RX duty cycling, UF2/DFU. | ![GitHub last commit](https://img.shields.io/github/last-commit/liquidraver/ZephCore) |
+| [MeshUltra](https://tdeck.ubnzeek.com/) 🔒 | **LilyGo T-Deck, T-Deck+.** Firmware for both devices. | |
+
 
 ### Flashing and Updating
 
@@ -366,17 +372,6 @@ Firmware marked 🔒 is closed source.
 | [MeshCore Web Keygen](https://gessaman.com/mc-keygen/) 🔒 | Client-side vanity Ed25519 key generator with custom hex prefixes. | |
 | [MeshCore Geo Prune](https://static.pixelentry.de/meshcore/geo-prune/) 🔒 | Browser tool that cleans the contact list with a geofence. | |
 
-### Enclosures and Mounts
-
-| Project | Description |
-| :--- | :--- |
-| ["Ray" Heltec V3 case](https://www.thingiverse.com/thing:7395161) | Handheld case with room for one 18650 cell. |
-| [Case-Stick for ProMicro nRF52](https://www.thingiverse.com/thing:7394936) | Stick-shaped case for ProMicro nRF52840 boards. |
-| [The Corebell](https://www.printables.com/model/1490873-the-corebell-a-meshcoremeshtastic-solar-node) | Printable solar node enclosure. |
-| [Heltec T114 case with battery](https://www.thingiverse.com/thing:7390213) | Compact handheld case with an integrated battery bay. |
-| [MeshCore mast enclosure for Heltec V3](https://www.printables.com/model/1767610-meshcore-mast-enclosure-heltec-v3) | Mast-mounted outdoor enclosure. |
-| [NodakMesh enclosures guide](https://nodakmesh.org/meshcore/enclosures) | Overview of commercial and DIY cases with IP-rating guidance. |
-| [Outdoor Case for MeshCore Node / Repeater](https://www.thingiverse.com/thing:7383479) | Printable weatherproof repeater case. |
 
 ## Maps and Diagnostics
 
