@@ -12,8 +12,6 @@ sensor networks.
 - [Official Resources](#official-resources)
   - [Social Media](#social-media)
 - [Communities](#communities)
-  - [Virtual](#virtual)
-  - [Country / region sections](#country--region-websites)
 - [Hardware](#hardware)
   - [Pre-built Devices](#pre-built-devices)
   - [Supported Devices](#supported-devices)
