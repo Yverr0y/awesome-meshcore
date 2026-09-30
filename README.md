@@ -459,10 +459,16 @@ Tools to see what is happening on the mesh.
 
 ## Communities
 
+
+
 ### Virtual
 
 - [LetsMesh Forum](https://forum.letsmesh.net/) - Community forum for MeshCore and LoRa mesh.
 - [MeshCore subreddit](https://old.reddit.com/r/meshcore/) - Community discussion.
+
+### Argentina
+
+- [Mesh Argentina](https://mesharg.com.ar/) - Argentine community covering Meshtastic, MeshCore and Reticulum mesh networks.
 
 ### Australia
 
@@ -516,6 +522,14 @@ Tools to see what is happening on the mesh.
 
 - [MeshCore ČR](https://meshcore.cz/) - Czech-language community and documentation.
 
+### Denmark
+
+- [MeshCore.dk](https://meshcore.dk/) - Danish community hub with setup docs, node map and a Facebook group.
+
+### Estonia
+
+- [ESTMesh](https://wiki.estmesh.ee/en/home) - Estonian Meshtastic and MeshCore wiki with configuration docs, dashboards and a Discord server.
+
 ### Europe
 
 - [MeshCore Europe](https://meshcoreeurope.org/) - Multilingual umbrella site with community directory, guides and maps.
@@ -526,10 +540,10 @@ Tools to see what is happening on the mesh.
 
 ### France
 
+- [Île-de-France Mesh](https://wiki.mesh-idf.fr) - Paris region wiki; also covers Meshtastic.
 - [LoraMesh France](https://loramesh.fr/) - French community with regional coverage.
 - [MeshCore France](https://www.meshcore.fr/) - French network coordination.
 - [MeshCore Paris](https://meshcore.paris/) - Paris and Greater Paris region network.
-- [Île-de-France Mesh](https://wiki.mesh-idf.fr) - Paris region wiki; also covers Meshtastic.
 
 ### Germany
 
@@ -537,6 +551,7 @@ Tools to see what is happening on the mesh.
 - [HanseMesh](https://hansemesh.de/) - Northern Germany network and tutorials.
 - [IsarMesh](https://isarmesh.de/) - Bavarian community forum.
 - [LocalMesh Deutschland](https://www.localmesh.de/) - German emergency radio network with guides.
+- [Münsterland Mesh](https://mcml.info/) - Münsterland region of North Rhine-Westphalia.
 - [Mesh Dresden](https://meshdresden.eu/) - Dresden and wider Saxony community.
 - [Mesh Rheinland](https://www.meshrheinland.de/) - Rheinland and western Germany community.
 - [MeshCore DE Matrix room](https://matrix.to/#/#meshcore-netzwerk-de:matrix.org) - German community chat.
@@ -545,7 +560,6 @@ Tools to see what is happening on the mesh.
 - [MeshCore Dresden](https://loramesh-dresden.de/) - Dresden network.
 - [MeshCore Essen-Kettwig](https://jonathansalim.de/) - Public network around Essen-Kettwig in the Ruhr area.
 - [MeshMitte](https://msh3.de/) - Central Germany community.
-- [Münsterland Mesh](https://mcml.info/) - Münsterland region of North Rhine-Westphalia.
 - [SaarMesh](https://saarmesh.de/) - Saarland regional network.
 
 ### Greece
@@ -554,7 +568,11 @@ Tools to see what is happening on the mesh.
 
 ### Hungary
 
-- [MeshCore Hungary](https://mc868.hu/) - Hungarian community on 868 MHz with map and Telegram group.
+- [MeshCore Hungary](https://meshcore.hu/) - Hungarian community on 868 MHz with map and Telegram group.
+
+### India
+
+- [r/MeshCoreIndia](https://www.reddit.com/r/MeshCoreIndia/) - Early-stage Indian community sharing regional radio settings.
 
 ### Ireland
 
@@ -564,8 +582,8 @@ Tools to see what is happening on the mesh.
 ### Italy
 
 - [LoRa Brescia](https://www.lorabrescia.it/) - Brescia group with Italian guides for flashing and configuring MeshCore repeaters; also covers Meshtastic and LoRa APRS.
-- [MeshCore ITA Telegram group](https://t.me/meshcore_ita) - Public group, per-region topics.
 - [MeshCore ITA](https://meshcore-ita.github.io/) - Italian-language documentation: setup guide, the shared Italian radio preset, hardware, CLI reference, troubleshooting, FAQ and glossary.
+- [MeshCore ITA Telegram group](https://t.me/meshcore_ita) - Public group, per-region topics.
 - [MeshCore Italia](https://www.meshcoreitalia.it) - Nationwide Italian mesh on the EU/UK narrow preset, with map and Telegram group.
 - [MeshCore Repeater Guide Italia](https://codeberg.org/3yte/meshcore-italia) - Italian CLI guide for repeaters on the national mesh, with the regional scope tree and a [command wizard](https://3yte.codeberg.page/meshcore-italia/).
 
@@ -580,6 +598,10 @@ Tools to see what is happening on the mesh.
 ### Lithuania
 
 - [Atviras Tinklas](https://atvirastinklas.lt) - Lithuanian community with a CoreScope instance and Telegram group.
+
+### Luxembourg
+
+- [MeshCore Luxembourg](https://www.meshcore.lu/) - Luxembourgish community page listing the associations running MeshCore infrastructure nationwide.
 
 ### Netherlands
 
@@ -615,8 +637,18 @@ Tools to see what is happening on the mesh.
 
 ### Russia
 
+- [MeshCore Krasnodar Telegram group](https://t.me/MeshCore_KRD) - Russian-language Krasnodar Krai community chat for MeshCore users.
 - [MeshCore Moscow](https://meshcoretel.ru/) - Moscow network with a live telemetry map.
 - [MeshCore Moscow Telegram group](https://t.me/meshcoremoscow) - Moscow community chat.
+- [MeshCore North Caucasus Telegram group](https://t.me/meshtastic_stv) - Russian-language regional community coordinated through the skmesh.ru dashboard.
+- [MeshCore Offline Network Telegram channel](https://t.me/MeshCore_offline_network) - Russian-language channel with news, guides, devices and firmware.
+- [MeshCore Rostov-on-Don Telegram group](https://t.me/Meshcore_Rostov_na_Donu) - Russian-language group for repeater setup, firmware and coverage maps.
+- [MeshCore Russian-language Telegram group](https://t.me/meshcore_rulang) - General Russian-language public for MeshCore, Meshtastic and Reticulum discussion.
+- [MeshCore Saint Petersburg](https://meshcore.spb.ru/wiki/) - City wiki with hardware, flashing and repeater guides, plus a Telegram group.
+
+### Serbia
+
+- [meshcore.rs](https://meshcore.rs/) - Serbian-language node registry and live map for the regional MeshCore network.
 
 ### Slovakia
 
@@ -625,6 +657,10 @@ Tools to see what is happening on the mesh.
 ### Slovenia
 
 - [MeshCore Slovenija](https://meshcore.si/) - Slovenian community with the regional preset and firmware links.
+
+### South Africa
+
+- [LoRa Mesh Comms ZA Discord](https://discord.gg/tKGFwFYvsT) - South African community coordinating Meshtastic and MeshCore repeaters, mainly around Cape Town.
 
 ### Spain
 
@@ -643,7 +679,6 @@ Tools to see what is happening on the mesh.
 
 ### Ukraine
 
-- [MeshCore UA (Kyiv)](https://meshcore.kiev.ua/) - Ukrainian public mesh community.
 - [MeshCore Ukraine](https://meshcore-ua.net/) - Volunteer-run public mesh for resilient communication across Ukraine.
 
 ### United Kingdom
@@ -653,7 +688,7 @@ Tools to see what is happening on the mesh.
 - [MeshCore Wales](https://meshcore.wales/) - Welsh regional settings and coordination.
 - [MeshHub UK](https://meshhub.uk/) - National coordination platform.
 - [NorthMesh](https://northmesh.co.uk/) - Northern England community network.
-- [ScotMesh](https://scotmesh.mm7roq.compute.oarc.uk/) - Scottish community tools.
+- [ScotMesh](https://scotmesh.net/) - Scottish community tools.
 
 ### United States
 
@@ -663,10 +698,10 @@ Tools to see what is happening on the mesh.
 - [Chicagoland Mesh](https://chicagolandmesh.org/) - Chicago-area MeshCore, Meshtastic and Reticulum community.
 - [Colorado MeshCore](https://meshcore.coloradomesh.org/) - Colorado community and guides.
 - [CT Mesh](https://ctmesh.org/) - Connecticut mesh technologies user group.
-- [Denver MeshCore](https://denvermc.com/) - Denver metro community.
 - [Eastern US MeshCore](https://eastme.sh/) - Eastern states network.
 - [Florida Mesh](https://areyoumeshingwith.us/) - Florida-wide network run by amateur radio operators.
 - [Florida MeshCore](https://mc.flmesh.us/) - Statewide community network for Florida.
+- [Greater Boston Mesh](https://bostonme.sh/) - Boston-area community behind the Boston MeshCore MQTT dashboard.
 - [Gulf Coast Mesh](https://gulfcoastmesh.org) - Louisiana and US Gulf Coast network.
 - [Idaho Mesh](https://idahomesh.org) - Idaho network centred on the Treasure Valley.
 - [Inland NW Mesh](https://inlandnwmesh.org/) - Spokane, Coeur d'Alene, the Palouse and Lewiston/Clarkston.
@@ -678,7 +713,7 @@ Tools to see what is happening on the mesh.
 - [MeshCore Lexington](https://meshcorelexington.com/) - Lexington, Kentucky network.
 - [MeshCore TX](https://meshcoretx.net/) - Texas radio preset and repeater naming standard.
 - [MeshNY](https://nyme.sh/) - New York City community.
-- [MeshTexas](https://meshtexas.net/) - Statewide Texas network with a shared MQTT broker.
+- [MeshTexas](https://meshtexas.org/) - Statewide Texas network with a shared MQTT broker.
 - [Missouri Mesh](https://missourimesh.org/) - Missouri community; also covers Meshtastic.
 - [Mountain West Mesh](https://mwmesh.com/) - Utah, Idaho and Wyoming network.
 - [MSP Mesh](https://mspmesh.org/) - Minneapolis-Saint Paul and Greater Minnesota group.
@@ -699,3 +734,5 @@ Tools to see what is happening on the mesh.
 - [Upstate Mesh](https://www.upst8me.sh/) - New York Capital District community.
 - [West Coast Mesh](https://www.wcmesh.com/) - West Coast community hub and coordination.
 - [WNY MeshCore](https://wnymeshcore.org/) - Western New York communication backbone.
+
+
