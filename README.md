@@ -580,6 +580,10 @@ Tools to see what is happening on the mesh.
 - [LoRa Project Ireland](https://loraproject.ie/) - Island of Ireland off-grid messaging community.
 - [Mayo Mesh](https://mayomesh.net/#/) - County Mayo mesh radio user group.
 
+### Israel
+
+- [MeshCore Israel](https://meshcore.org.il) - The Israel Meshcore Network.
+
 ### Italy
 
 - [LoRa Brescia](https://www.lorabrescia.it/) - Brescia group with Italian guides for flashing and configuring MeshCore repeaters; also covers Meshtastic and LoRa APRS.
