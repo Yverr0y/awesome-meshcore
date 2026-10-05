@@ -54,6 +54,7 @@ Apps and firmware marked 🔒 are closed source.
 - [The FAQ](https://github.com/meshcore-dev/MeshCore/blob/main/docs/faq.md) - Official answers on setup, roles and radio settings.
 - [Firmware repository](https://github.com/meshcore-dev/MeshCore) ![GitHub Repo stars](https://img.shields.io/github/stars/meshcore-dev/MeshCore?style=social) - MIT licensed firmware. ![GitHub last commit](https://img.shields.io/github/last-commit/meshcore-dev/MeshCore)
 - [Current state of MeshCore encryption](https://github.com/meshcore-dev/MeshCore/issues/259) - Discussion thread on the project's encryption roadmap.
+- [Repeater/Room Config](https://config.meshcore.io/) - Official browser-based USB configuration tool for repeaters and room servers.
 
 ### Social Media
 
@@ -62,6 +63,7 @@ Apps and firmware marked 🔒 are closed source.
 - [Facebook group](https://www.facebook.com/groups/meshcore)
 - [Mastodon](https://mastodon.social/@meshcore)
 - [YouTube](https://www.youtube.com/@meshcore-official)
+- [X](https://x.com/mesh_core) - 
 
 ## Communites
 - [Communities](#communities)
@@ -90,6 +92,7 @@ Compatibility references; check these before buying a board.
 | [MeshCore Europe devices](https://meshcoreeurope.org/en/devices/) | Multilingual device directory with setup guides. |
 | [mesh-sn.de firmware matrix](https://mesh-sn.de/en/devices/matrix) | Per-device matrix of which MeshCore firmware builds are available. |
 | [Mesh America supported hardware](https://wiki.meshamerica.com/books/meshcore/page/supported-hardware-for-meshcore) | Community list of compatible boards and chipsets. |
+| [LocalMesh UK devices](https://localmesh.co.uk/devices/) | Device guides for the UK emergency network. |
 
 ### DIY Builds
 
@@ -104,6 +107,8 @@ Open designs with published files (PCB, BOM, STL or detailed build guide).
 | [NodakMesh solar repeater build](https://nodakmesh.org/blog/meshcore-solar-repeater-build) | Parts list, solar sizing, weatherproofing and configuration walkthrough. |
 | [RePeter](https://github.com/robrec/MeshCoreRepeater-RePeter) ![GitHub Repo stars](https://img.shields.io/github/stars/robrec/MeshCoreRepeater-RePeter?style=social) | Bremen repeater board with Gerbers, schematics, BOM and STEP model. |
 | [XIAO S3 Dual-Radio Repeater](https://github.com/bouyous/meshcore-xiao-s3-dual-radio-repeater) ![GitHub Repo stars](https://img.shields.io/github/stars/bouyous/meshcore-xiao-s3-dual-radio-repeater?style=social) | Two-radio summit repeater with assembly guide and field test reports. |
+| [LoRaHarvesterBox](https://github.com/h0lad/LoRaHarvesterBox) ![GitHub Repo stars](https://img.shields.io/github/stars/h0lad/LoRaHarvesterBox?style=social) | STM32WLE5CC LoRa base board with a BQ25570 energy harvester for MeshCore or Meshtastic nodes. |
+| [SolarMeshtasticNodeMini](https://github.com/h0lad/SolarMeshtasticNodeMini) ![GitHub Repo stars](https://img.shields.io/github/stars/h0lad/SolarMeshtasticNodeMini?style=social) | Miniaturised 37×47mm solar node compatible with MeshCore and Meshtastic. |
 
 ### Enclosures and Mounts
 
@@ -148,6 +153,8 @@ Grouped by platform. Apps marked 🔒 are closed source.
 | [MeshCore-TEAM](https://play.google.com/store/apps/details?id=com.meshcore.team) 🔒 | Android client focused on group operations (Play Store build of [MeshCore TEAM](https://github.com/tmacinc/MeshCore-TEAM)). | |
 | [meshGO!](https://play.google.com/store/apps/details?id=com.meshcore.meshgo) 🔒 | Android off-grid messaging client. | |
 | [MeshMapper](https://play.google.com/store/apps/details?id=net.meshmapper.app) 🔒 | Android coverage mapping and wardriving app. | |
+| [MeshCore Open](https://github.com/zjs81/meshcore-open/releases) | Android builds of the open-source Flutter client listed under Cross-Platform. | |
+| [Peers](https://github.com/xAlisher/peers) ![GitHub Repo stars](https://img.shields.io/github/stars/xAlisher/peers?style=social) | Privacy-focused Android messenger routing over Logos, MeshCore and Bluetooth mesh. | ![GitHub last commit](https://img.shields.io/github/last-commit/xAlisher/peers) |
 
 
 ### iOS and Apple
@@ -182,6 +189,7 @@ Grouped by platform. Apps marked 🔒 are closed source.
 | [meshcore-webui](https://github.com/adradr/meshcore-webui) ![GitHub Repo stars](https://img.shields.io/github/stars/adradr/meshcore-webui?style=social) | Web UI for managing devices and chatting on the mesh. | ![GitHub last commit](https://img.shields.io/github/last-commit/adradr/meshcore-webui) |
 | [MeshCorium](https://github.com/PEG4TRON/MeshCorium) ![GitHub Repo stars](https://img.shields.io/github/stars/PEG4TRON/MeshCorium?style=social) | Self-hosted client with a local web interface and hybrid contact system. | ![GitHub last commit](https://img.shields.io/github/last-commit/PEG4TRON/MeshCorium) |
 | [Mycelium](https://github.com/WattleFoxxo/Mycelium) ![GitHub Repo stars](https://img.shields.io/github/stars/WattleFoxxo/Mycelium?style=social) | Browser client for messaging over serial or BLE. | ![GitHub last commit](https://img.shields.io/github/last-commit/WattleFoxxo/Mycelium) |
+| [Official web app](https://app.meshcore.nz/) 🔒 | Browser build of the official companion app. | |
 
 ### Terminal
 
@@ -270,6 +278,7 @@ Firmware marked 🔒 is closed source.
 | [XIAO nRF52 Updater](https://github.com/recrof/xiao_nrf52_updater) ![GitHub Repo stars](https://img.shields.io/github/stars/recrof/xiao_nrf52_updater?style=social) | Updater firmware that flashes nearby nRF52 nodes over Bluetooth DFU. | ![GitHub last commit](https://img.shields.io/github/last-commit/recrof/xiao_nrf52_updater) |
 | [Mesh America Device Configurator](https://meshamerica.com/device-configurator/) 🔒 | Browser flasher and configurator over Web Serial. | |
 | [weebl2000's Firmware Builder](https://mcimages.weebl.me/) 🔒 | **All MeshCore-supported boards.** Build and download firmware images for your device. | |
+| [MeshCore M5Burner UnitC6L](https://github.com/TheRealHaoLiu/MeshCore-M5Burner-UnitC6L) ![GitHub Repo stars](https://img.shields.io/github/stars/TheRealHaoLiu/MeshCore-M5Burner-UnitC6L?style=social) | Pre-built MeshCore firmware variants for the M5Stack Unit C6L via M5Burner. | ![GitHub last commit](https://img.shields.io/github/last-commit/TheRealHaoLiu/MeshCore-M5Burner-UnitC6L) |
 
 
 
@@ -292,6 +301,8 @@ Firmware marked 🔒 is closed source.
 | [MeshCoreKmp](https://github.com/Wavesonics/MeshCoreKmp) ![GitHub Repo stars](https://img.shields.io/github/stars/Wavesonics/MeshCoreKmp?style=social) | Kotlin Multiplatform library for BLE companion nodes. | ![GitHub last commit](https://img.shields.io/github/last-commit/Wavesonics/MeshCoreKmp) |
 | [meshpkt](https://github.com/meshcore-cz/meshpkt) ![GitHub Repo stars](https://img.shields.io/github/stars/meshcore-cz/meshpkt?style=social) | Pure Go packet codec with identity cryptography and TypeScript WebAssembly bindings. | ![GitHub last commit](https://img.shields.io/github/last-commit/meshcore-cz/meshpkt) |
 | [openHop Core](https://github.com/openhop-dev/openhop_core) ![GitHub Repo stars](https://img.shields.io/github/stars/openhop-dev/openhop_core?style=social) | Python reimplementation of the protocol and routing stack, with direct SX1262 support. | ![GitHub last commit](https://img.shields.io/github/last-commit/openhop-dev/openhop_core) |
+| [meshcore-c (Nicolai-Electronics)](https://github.com/Nicolai-Electronics/meshcore-c) ![GitHub Repo stars](https://img.shields.io/github/stars/Nicolai-Electronics/meshcore-c?style=social) | Dependency-free MeshCore protocol implementation in C for ESP-IDF projects. | ![GitHub last commit](https://img.shields.io/github/last-commit/Nicolai-Electronics/meshcore-c) |
+| [pyMC WM1303](https://github.com/HansvanMeer/pyMC_WM1303) ![GitHub Repo stars](https://img.shields.io/github/stars/HansvanMeer/pyMC_WM1303?style=social) | Multi-channel LoRa bridge turning an SX1302/SX1303 concentrator into a MeshCore gateway. | ![GitHub last commit](https://img.shields.io/github/last-commit/HansvanMeer/pyMC_WM1303) |
 
 ## Integrations and Bots
 
@@ -323,6 +334,23 @@ Firmware marked 🔒 is closed source.
 | [PokeMesh](https://github.com/IdreesInc/PokeMesh) ![GitHub Repo stars](https://img.shields.io/github/stars/IdreesInc/PokeMesh?style=social) | Serial | Collaborative Pokémon FireRed played through channel commands, turning the game into a text adventure over MeshCore. | ![GitHub last commit](https://img.shields.io/github/last-commit/IdreesInc/PokeMesh) |
 | [Spectra](https://forge.hackers.town/Wrewdison/Spectra) | — | Rust bridge from MeshCore or Meshtastic radios to the Veilid DHT. | |
 | [Supply Drop BBS](https://supplydrop.meshamerica.com/) 🔒 | — | Rust BBS for Raspberry Pi with MeshCore and Meshtastic bridges and a plugin system for other transports. | |
+| [Akita Meshtastic Meshcore Bridge](https://github.com/AkitaEngineering/Akita-Meshtastic-Meshcore-Bridge) ![GitHub Repo stars](https://img.shields.io/github/stars/AkitaEngineering/Akita-Meshtastic-Meshcore-Bridge?style=social) | — | Bidirectional bridge between Meshtastic and MeshCore over serial or MQTT. | ![GitHub last commit](https://img.shields.io/github/last-commit/AkitaEngineering/Akita-Meshtastic-Meshcore-Bridge) |
+| [Akita Zmodem MeshCore](https://github.com/AkitaEngineering/Akita-Zmodem-MeshCore) ![GitHub Repo stars](https://img.shields.io/github/stars/AkitaEngineering/Akita-Zmodem-MeshCore?style=social) | — | Lightweight ZMODEM-style file transfer protocol over the MeshCore companion client. | ![GitHub last commit](https://img.shields.io/github/last-commit/AkitaEngineering/Akita-Zmodem-MeshCore) |
+| [MeshBBS](https://github.com/atomozero/MeshBBS) ![GitHub Repo stars](https://img.shields.io/github/stars/atomozero/MeshBBS?style=social) | — | Bulletin board system with public boards and private messages over MeshCore. | ![GitHub last commit](https://img.shields.io/github/last-commit/atomozero/MeshBBS) |
+| [MeshCore ATAK Plugin](https://github.com/atakmaps/TAK-MESHCORE) ![GitHub Repo stars](https://img.shields.io/github/stars/atakmaps/TAK-MESHCORE?style=social) | — | ATAK plugin for the MeshCore BLE companion transport. | ![GitHub last commit](https://img.shields.io/github/last-commit/atakmaps/TAK-MESHCORE) |
+| [MeshCore-BitChat](https://github.com/jooray/MeshCore-BitChat) ![GitHub Repo stars](https://img.shields.io/github/stars/jooray/MeshCore-BitChat?style=social) | — | Experimental fork branch bridging Bitchat and MeshCore mesh messages. | ![GitHub last commit](https://img.shields.io/github/last-commit/jooray/MeshCore-BitChat) |
+| [meshcore-card](https://github.com/jpettitt/meshcore-card) ![GitHub Repo stars](https://img.shields.io/github/stars/jpettitt/meshcore-card?style=social) | — | Home Assistant Lovelace cards for hub, node, contact and channel statistics. | ![GitHub last commit](https://img.shields.io/github/last-commit/jpettitt/meshcore-card) |
+| [MeshCore Chat for Home Assistant](https://github.com/mwolter805/meshcore-ha-chat) ![GitHub Repo stars](https://img.shields.io/github/stars/mwolter805/meshcore-ha-chat?style=social) | — | Sidebar chat panel and persistent message store built on meshcore-ha. | ![GitHub last commit](https://img.shields.io/github/last-commit/mwolter805/meshcore-ha-chat) |
+| [MeshCore ESP-NOW Filtered Bridge](https://github.com/Department-of-Mesh-Regional-Bridging/meshcore-esp-now-filtered-bridge) ![GitHub Repo stars](https://img.shields.io/github/stars/Department-of-Mesh-Regional-Bridging/meshcore-esp-now-filtered-bridge?style=social) | — | MeshCore to ESP-NOW bridge with configurable packet filtering. | ![GitHub last commit](https://img.shields.io/github/last-commit/Department-of-Mesh-Regional-Bridging/meshcore-esp-now-filtered-bridge) |
+| [MeshCore Home Assistant Panel v2](https://github.com/d3sbo/MeshCore-Home-Assistant-Panel-v2) ![GitHub Repo stars](https://img.shields.io/github/stars/d3sbo/MeshCore-Home-Assistant-Panel-v2?style=social) | — | Dashboard with interactive maps, heatmaps and playback recording for the mesh. | ![GitHub last commit](https://img.shields.io/github/last-commit/d3sbo/MeshCore-Home-Assistant-Panel-v2) |
+| [meshcore-mqtt-broker (michaelhart)](https://github.com/michaelhart/meshcore-mqtt-broker) ![GitHub Repo stars](https://img.shields.io/github/stars/michaelhart/meshcore-mqtt-broker?style=social) | — | WebSocket MQTT broker authenticating clients with MeshCore public keys. | ![GitHub last commit](https://img.shields.io/github/last-commit/michaelhart/meshcore-mqtt-broker) |
+| [MeshCore WeatherBot](https://github.com/recrof/MeshCore-WeatherBot) ![GitHub Repo stars](https://img.shields.io/github/stars/recrof/MeshCore-WeatherBot?style=social) | — | Node.js weather forecast and lightning alert bot for mesh channels. | ![GitHub last commit](https://img.shields.io/github/last-commit/recrof/MeshCore-WeatherBot) |
+| [Meshy (Upstate Mesh)](https://github.com/Upstate-Mesh/meshy) ![GitHub Repo stars](https://img.shields.io/github/stars/Upstate-Mesh/meshy?style=social) | — | Scheduled bot for beaconing, weather forecasts and Home Assistant sensor reports. | ![GitHub last commit](https://img.shields.io/github/last-commit/Upstate-Mesh/meshy) |
+| [openHop HA Integration](https://github.com/openhop-dev/openHop-HA-Integration) ![GitHub Repo stars](https://img.shields.io/github/stars/openhop-dev/openHop-HA-Integration?style=social) | — | Home Assistant integration for openHop Repeater with telemetry and control entities. | ![GitHub last commit](https://img.shields.io/github/last-commit/openhop-dev/openHop-HA-Integration) |
+| [openHop Modem](https://github.com/openhop-dev/openhop_modem) ![GitHub Repo stars](https://img.shields.io/github/stars/openhop-dev/openhop_modem?style=social) | — | Turns an ESP32 or nRF52 SX1262 board into a dedicated LoRa modem for openHop Core. | ![GitHub last commit](https://img.shields.io/github/last-commit/openhop-dev/openhop_modem) |
+| [Raven](https://github.com/kn6plv/Raven) ![GitHub Repo stars](https://img.shields.io/github/stars/kn6plv/Raven?style=social) | — | Bridges AREDN mesh messages to MeshCore, Meshtastic and Winlink. | ![GitHub last commit](https://img.shields.io/github/last-commit/kn6plv/Raven) |
+| [Reticulum Smart MeshCore Interface](https://github.com/afit21/Reticulum-Smart-MeshCore-Interface) ![GitHub Repo stars](https://img.shields.io/github/stars/afit21/Reticulum-Smart-MeshCore-Interface?style=social) | — | Runs Reticulum LXMF and NomadNet over MeshCore repeaters without flooding the mesh. | ![GitHub last commit](https://img.shields.io/github/last-commit/afit21/Reticulum-Smart-MeshCore-Interface) |
+| [RNS Gateway](https://github.com/genemichael/rns-gateway) ![GitHub Repo stars](https://img.shields.io/github/stars/genemichael/rns-gateway?style=social) | — | Runs a Reticulum transport and TCP server alongside MeshCore firmware on one Heltec V4. | ![GitHub last commit](https://img.shields.io/github/last-commit/genemichael/rns-gateway) |
 
 ## Self-Hosted Dashboards
 
@@ -341,6 +369,10 @@ Firmware marked 🔒 is closed source.
 | [pyMC Console](https://github.com/Treehouse-00/pymc_console-dist) ![GitHub Repo stars](https://img.shields.io/github/stars/Treehouse-00/pymc_console-dist?style=social) | Real-time web dashboard for openHop Repeater with RF statistics and terrain mapping. | ![GitHub last commit](https://img.shields.io/github/last-commit/Treehouse-00/pymc_console-dist) |
 | [Remote Terminal for MeshCore (jkingsman)](https://github.com/jkingsman/Remote-Terminal-for-MeshCore) ![GitHub Repo stars](https://img.shields.io/github/stars/jkingsman/Remote-Terminal-for-MeshCore?style=social) | Power-user terminal with server-side packet capture, bots and MQTT integrations. | ![GitHub last commit](https://img.shields.io/github/last-commit/jkingsman/Remote-Terminal-for-MeshCore) |
 | [UK Mesh](https://www.ukmesh.com/) ([GitHub repository](https://github.com/gadgethd/ukmesh)) ![GitHub Repo stars](https://img.shields.io/github/stars/gadgethd/ukmesh?style=social) | Real-time analytics platform with observer ingestion, coverage and packet views. | ![GitHub last commit](https://img.shields.io/github/last-commit/gadgethd/ukmesh) |
+| [Mesh Health Check](https://github.com/yellowcooln/meshcore-health-check) ![GitHub Repo stars](https://img.shields.io/github/stars/yellowcooln/meshcore-health-check?style=social) | Scores real-world message reachability across MQTT-connected observers. | ![GitHub last commit](https://img.shields.io/github/last-commit/yellowcooln/meshcore-health-check) |
+| [MeshCore Wardrive Map (Docker)](https://github.com/mintylinux/meshwar-map-docker) ![GitHub Repo stars](https://img.shields.io/github/stars/mintylinux/meshwar-map-docker?style=social) | Self-hosted SQLite-backed wardriving coverage map with no cloud dependency. | ![GitHub last commit](https://img.shields.io/github/last-commit/mintylinux/meshwar-map-docker) |
+| [MeshLog](https://github.com/Anrijs/MeshLog) ![GitHub Repo stars](https://img.shields.io/github/stars/Anrijs/MeshLog?style=social) | PHP/MySQL web dashboard for the companion MeshCore logger firmware. | ![GitHub last commit](https://img.shields.io/github/last-commit/Anrijs/MeshLog) |
+| [openHop Repeater UI](https://github.com/openhop-dev/openHop_RepeaterUI) ![GitHub Repo stars](https://img.shields.io/github/stars/openhop-dev/openHop_RepeaterUI?style=social) | Vue 3 web dashboard for monitoring and managing an openHop Repeater. | ![GitHub last commit](https://img.shields.io/github/last-commit/openhop-dev/openHop_RepeaterUI) |
 
 ## Packet Analysis
 
@@ -374,6 +406,11 @@ Firmware marked 🔒 is closed source.
 | [Mesh Utility](https://mesh-utility.org/) 🔒 | Progressive Web App for mapping MeshCore LoRa coverage with optional cloud ingestion. | |
 | [MeshCore Web Keygen](https://gessaman.com/mc-keygen/) 🔒 | Client-side vanity Ed25519 key generator with custom hex prefixes. | |
 | [MeshCore Geo Prune](https://static.pixelentry.de/meshcore/geo-prune/) 🔒 | Browser tool that cleans the contact list with a geofence. | |
+| [coresplitter](https://github.com/ogarcia/coresplitter) ![GitHub Repo stars](https://img.shields.io/github/stars/ogarcia/coresplitter?style=social) | Client multiplexer with SQLite cache sharing one companion radio among multiple TCP clients. | ![GitHub last commit](https://img.shields.io/github/last-commit/ogarcia/coresplitter) |
+| [mc-keygen](https://github.com/samschlegel/mc-keygen) ![GitHub Repo stars](https://img.shields.io/github/stars/samschlegel/mc-keygen?style=social) | Rust vanity Ed25519 key generator with CUDA or Metal acceleration. | ![GitHub last commit](https://img.shields.io/github/last-commit/samschlegel/mc-keygen) |
+| [MeshCore Channels catalog](https://github.com/marcelverdult/meshcore-channels) ![GitHub Repo stars](https://img.shields.io/github/stars/marcelverdult/meshcore-channels?style=social) | Community-editable JSON catalog of MeshCore channels grouped by country. | ![GitHub last commit](https://img.shields.io/github/last-commit/marcelverdult/meshcore-channels) |
+| [meshcore-tcp-mux](https://github.com/compumike/meshcore-tcp-mux) ![GitHub Repo stars](https://img.shields.io/github/stars/compumike/meshcore-tcp-mux?style=social) | Share one upstream MeshCore TCP companion with multiple downstream clients. | ![GitHub last commit](https://img.shields.io/github/last-commit/compumike/meshcore-tcp-mux) |
+| [Offline Map Tile Downloader (Cyclenerd)](https://github.com/Cyclenerd/offline-map-tile-downloader) ![GitHub Repo stars](https://img.shields.io/github/stars/Cyclenerd/offline-map-tile-downloader?style=social) | Downloads offline OSM tiles for MeshCore, MeshOS and Meshtastic T-Deck apps. | ![GitHub last commit](https://img.shields.io/github/last-commit/Cyclenerd/offline-map-tile-downloader) |
 
 
 ## Maps and Diagnostics
@@ -433,6 +470,7 @@ Tools to see what is happening on the mesh.
 | [MeshKit](https://meshkit.app/) | Browser site planner with terrain LOS, Fresnel analysis and BLE radio tools. |
 | [MeshOMatic](https://map.meshomatic.net/) | Terrain-aware repeater placement planning and topology analysis. |
 | [Reticulum Network Planner](https://github.com/0xSeren/Reticulum-Network-Planner) | *(Applies to all LoRa.)* See [Utilities](#utilities). |
+| [DEALORA](https://github.com/MarkSlusar/DEALORA) | Genetic-algorithm antenna design tool for LoRa devices including MeshCore and Meshtastic. |
 
 ## Guides and Learning
 
@@ -456,6 +494,12 @@ Tools to see what is happening on the mesh.
 | [Video: How to get started](https://youtu.be/t1qne8uJBAc) | Getting-started walkthrough. |
 | [Why MeshCore needs regions - explained simply](https://kiekr.app/why-regions) | Plain-language explanation of the region system. |
 | [WISSEN TECHNIK podcast](https://wissen-technik-meshcore-meshtastic.podigee.io/) | German-language podcast on MeshCore and Meshtastic. |
+| [Andy Kirby on YouTube](https://www.youtube.com/@andykirby) | Hardware reviews, repeater builds and firmware walkthroughs. |
+| [DevTrends MeshCore overview](https://devtrends.ru/c/meshcore-dev-meshcore) | Russian-language technical overview covering node roles, memory model and getting started. |
+| [Habr MeshCore series (NanoVHF)](https://habr.com/ru/articles/1056050/) | Russian-language multi-part explainer comparing MeshCore's routing to Meshtastic's flood network. |
+| [LilyGo MeshCore guide (Chinese)](https://wiki.lilygo.cc/zh/open-source/meshcore/) | Chinese-language official guide covering supported devices, roles and firmware flashing. |
+| [MeshCore QuickStart (The Comms Channel)](https://www.youtube.com/playlist?list=PLshzThxhw4O4WU_iZo3NmNZOv6KMrUuF9) | Nine-part video series walking through initial MeshCore setup. |
+| [Seeed Studio ESP32 MeshCore guide (Chinese)](https://wiki.seeedstudio.com/cn/get_started_with_esp32s3_meshcore/) | Chinese-language guide for flashing and configuring the XIAO ESP32S3 repeater. |
 
 
 ## Communities
