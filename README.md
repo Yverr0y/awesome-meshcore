@@ -494,7 +494,6 @@ Tools to see what is happening on the mesh.
 | [Video: How to get started](https://youtu.be/t1qne8uJBAc) | Getting-started walkthrough. |
 | [Why MeshCore needs regions - explained simply](https://kiekr.app/why-regions) | Plain-language explanation of the region system. |
 | [WISSEN TECHNIK podcast](https://wissen-technik-meshcore-meshtastic.podigee.io/) | German-language podcast on MeshCore and Meshtastic. |
-| [Andy Kirby on YouTube](https://www.youtube.com/@andykirby) | Hardware reviews, repeater builds and firmware walkthroughs. |
 | [DevTrends MeshCore overview](https://devtrends.ru/c/meshcore-dev-meshcore) | Russian-language technical overview covering node roles, memory model and getting started. |
 | [Habr MeshCore series (NanoVHF)](https://habr.com/ru/articles/1056050/) | Russian-language multi-part explainer comparing MeshCore's routing to Meshtastic's flood network. |
 | [LilyGo MeshCore guide (Chinese)](https://wiki.lilygo.cc/zh/open-source/meshcore/) | Chinese-language official guide covering supported devices, roles and firmware flashing. |
